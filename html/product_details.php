@@ -80,7 +80,7 @@
                         <p class="grey-text">المشاهدات 90,576</p>
                     </div>
                     <div class="col l4">
-                        <a class="waves-effect waves-light btn btn-large btn-block pink lighten-2" style="margin: 25px 0px;"><i class="material-icons right">add_shopping_cart</i>Buy Now</a>
+                        <a class="waves-effect waves-light btn btn-large btn-block pink lighten-2" style="margin: 25px 0px;" onclick="alertTest()"><i class="material-icons right">add_shopping_cart</i>Buy Now</a>
                     </div>
                 </div>
 
@@ -149,6 +149,8 @@
     <!--Import jQuery before materialize.js-->
     <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
     <script type="text/javascript" src="js/materialize.min.js"></script>
+    <script type="text/javascript" src="js/sweetalert.min.js"></script>
+    <script type="text/javascript" src="js/sweetAlertFunctions.js"></script>
     <script type="text/javascript" src="js/custom.js"></script>
 
 </body>
