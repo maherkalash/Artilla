@@ -1,0 +1,211 @@
+/* Responsive layout Gallery */
+.layg { /* LAYG Mean : Layer Gallery :) */
+    float: left;
+    width: 25%;
+    padding: 0;
+}
+
+
+@media (max-width: 800px) {
+    .layg {
+        width: 50%;
+    }
+}
+
+@media (max-width: 600px) {
+    .layg {
+        width: 100%;
+    }
+}
+
+
+.layg img {
+    margin-top: 5px;
+    width: 100%;
+    padding: 10px 10px 2rem 10px;
+    display: block;
+    border-radius: 15px 15px  0 0 !important;
+}
+
+
+/* Image Hover Effect  */
+
+.container {
+    position: relative;
+    width: 100%;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: 0.3s ease;
+    background-color: rgba(0, 0, 0, 0.1);
+    border-radius: 5px ;
+}
+
+.container:hover .overlay {
+    opacity: 1;
+}
+
+/* Element Position in Image overlay */
+
+/* Top left text */
+.top-left {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+/* Top right text */
+.top-right {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+}
+
+/* Bottom right text */
+.bottom-right {
+    position: absolute;
+    bottom: 5px;
+    right: 20px;
+}
+
+/* Bottom left text */
+.bottom-left {
+    position: absolute;
+    bottom: 2px;
+    left: 15px;
+}
+
+/* Bottom left text */
+.sections {
+    position: absolute;
+    bottom: 45px;
+    left: 15px;
+}
+
+/* Centered text */
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+/* OVERLAY Component */
+
+/*** Spaces ***/
+.no-pad-sides { padding : 0 0 !important }
+
+/* Love button */
+
+.btn-love {
+    background-color: #f06292 ;
+    color: #fff !important;
+    padding: 10px 20px;
+    border-radius: 4px;
+    border: 2px solid #f06292;
+    text-decoration: none !important;
+}
+
+.btn-love:hover {
+    background-color: #fff ;
+    color: #f06292 !important;
+    border: 2px solid #fff;
+    transition: 0.3s;
+
+}
+
+/* Label */
+.label {
+    color: #212121;
+    padding: 0 15px;
+    border-radius: 20px;
+}
+
+/*
+.success {background-color: #4CAF50;}
+.info {background-color: #2196F3;}
+.warning {background-color: #ff9800;}
+.danger {background-color: #f44336;}
+*/
+.tag {
+    background-color: transparent;
+    color: white;
+    border: 2px solid #fff ;
+}
+
+
+/* h2 and h5 image style */
+.artName-text {
+    margin : 0 !important;
+    color : #fff ;
+    font-size: 40px;
+}
+
+.artistName-text {
+    margin : 0 !important;
+    color : #fff ;
+    font-size: 25px;
+}
+
+
+.rated {
+    color: orange;
+}
+
+/* Modal Design */
+.sideModal{
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+    text-align:center;
+}
+
+.closebtn {
+    color : #fff ;
+    transition: 0.3s;
+}
+.closebtn:hover {
+    color : #eee ;
+}
+
+.sideModal .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+    .sideModal {padding-top: 15px;}
+    .sideModal a {font-size: 18px;}
+}
+
+/* gallery Filter */
+
+
+.filter {
+
+    display: none;
+}
+
+
+.show {
+    display: block;
+}
