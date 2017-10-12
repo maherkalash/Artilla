@@ -6,7 +6,7 @@ $(document).ready(function(){
     $('.slider').slider();
 });
 
-//Hover Tab [Header Nav (MEGA MENU)]
+/*Hover Tab [Header Nav (MEGA MENU)]
 jQuery(document).ready(function($) {
     $(".tab-titles div").hover(function() {
         $(".tab-content").hide();
@@ -16,7 +16,24 @@ jQuery(document).ready(function($) {
         $(selected_tab).stop().fadeIn();
         return false;
     });
-});
+});*/
+
+function openCourse(evt, cityName) {
+    var i, tabcontent, tablinks;
+    tabcontent = document.getElementsByClassName("megaMenuAr-tabcontent");
+    for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
+    }
+    tablinks = document.getElementsByClassName("megaMenu-tablinks");
+    for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].className = tablinks[i].className.replace(" active", "");
+    }
+    document.getElementById(cityName).style.display = "block";
+    evt.currentTarget.className += " active";
+}
+
+// Get the element with id="defaultOpen" and click on it
+document.getElementById("defaultOpen").click();
 
 
 //Search course

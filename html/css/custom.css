@@ -8,49 +8,111 @@ body {
 
 /* Mega Section */
 
-.dropart-menu {
-    background-color: rgba(52, 73, 94,0.9) !important;
-    width: 35rem !important;
-    border-radius: 5px ;
-    border: 0px solid transparent;
-    margin: 4.4rem 0 !important ;
-}
-
-
-
-.hover-tab { margin: 5px 0; }
-
-.tab-titles {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    width: 10rem;
-    height: 20rem;
-    background-color: rgba(44, 62, 80,1.0);
-}
-
-
-.tab-btn a {
-    display: block;
+/* Arabic css Mega Menu*/
+.megaMenuAr {
+    overflow: hidden;
+    background-color: #34495e;
     color: #fff;
-    padding: 0 15px;
+}
+
+.megaMenuAr a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 20px 20px;
     text-decoration: none;
-    text-align: right;
+
+}
+
+.megaMenuAr-dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+.megaMenuAr-dropdown .dropbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 20px 20px;
+    background-color: inherit;
+
+}
+
+.megaMenuAr a:hover, .megaMenuAr-dropdown:hover .dropbtn {
+    background-color: rgba(0,0,0,0.1);
     transition: 0.3s;
 }
 
-.tab-btn a:hover {
-    background-color: rgba(52, 73, 94,1.0);
-    color: white;
-    border-right: 4px solid #f06292;
-
-}
-
-.tab-content{
+.megaMenuAr-dropdown-content {
     display: none;
-    width: 25rem;
+    position: absolute;
+    background-color: transparent;
+    width: 50%;
+    z-index: 1;
+    padding-top: 10px;
+    right: 14%;
+}
+/* dropdown arrow */
+.megaMenuAr-dropdown-content::after{
+    content: "";
+    position: absolute;
+    top: -10px;
+    right: 8%;
+    margin-left: -5px;
+    border-width: 10px;
+    border-style: solid;
+    border-color: transparent transparent #2c3e50 transparent;
 }
 
+.megaMenuAr-dropdown:hover .megaMenuAr-dropdown-content {
+    display: block;
+}
+
+/* Style the tab */
+div.megaMenuAr-tab {
+    float: left;
+    background-color: #2c3e50;
+    width: 30%;
+    height: 300px;
+}
+
+/* Style the buttons inside the tab */
+div.megaMenuAr-tab button {
+    display: block;
+    border: none;
+    background-color: inherit;
+    color: white;
+    padding: 10px 15px;
+    width: 100%;
+    outline: none;
+    cursor: pointer;
+    transition: 0.3s;
+    font-size: 17px;
+    text-align: right;
+}
+
+/* Change background color of buttons on hover */
+div.megaMenuAr-tab button:hover {
+    background-color: #34495e;
+}
+
+/* Create an active/current "tab button" class */
+div.megaMenuAr-tab button.active {
+    background-color: #34495e;
+}
+
+/* Style the tab content */
+.megaMenuAr-tabcontent {
+    float: left;
+    text-align: right;
+    padding: 0 12px;
+    background-color: rgba(52, 73, 94,0.9);
+    width: 70%;
+    border-left: none;
+    height: 300px;
+}
 
 /* Some Images Filter */
 

@@ -43,115 +43,42 @@
         </ul>
     </div>
 
-    <!-- Dropdown Structure -->
-    <ul id="dropdown1" class="dropdown-content dropart-menu">
-        <div class="hover-tab">
-            <div class="container-tab">
-                <div id="tab1" class="tab-content left" style="display:block;">
-
-                    <div class="row">
-                        <div class="col">
-                            <a class="waves-effect waves-light btn">button</a>
-                        </div>
-                        <div class="col">
-                            <a class="waves-effect waves-light btn">button</a>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col">
-                            <a class="waves-effect waves-light btn">button</a>
-                        </div>
-                        <div class="col">
-                            <a class="waves-effect waves-light btn">button</a>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col">
-                            <a class="waves-effect waves-light btn">button</a>
-                        </div>
-                        <div class="col">
-                            <a class="waves-effect waves-light btn">button</a>
-                        </div>
-                    </div>
+    <div class="megaMenuAr z-depth-1" style="margin-top: -64px">
+        <div class="container">
+        <div class="megaMenuAr-dropdown right ">
+            <button class="dropbtn">الدورات
+                <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="megaMenuAr-dropdown-content">
+                <div id="art" class="megaMenuAr-tabcontent">
+                    <h3>Hello , world</h3>
+                    <p>هذا النص تجربة من اجل معرفة المشاكل المتعلقة باللغة العرية .</p>
                 </div>
 
-                <div id="tab2" class="tab-content left">
-                    <div class="row">
-                        <div class="col">
-                            <a class="waves-effect waves-light btn">button</a>
-                        </div>
-                        <div class="col">
-                            <a class="waves-effect waves-light btn">button</a>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col">
-                            <a class="waves-effect waves-light btn">button</a>
-                        </div>
-                        <div class="col">
-                            <a class="waves-effect waves-light btn">button</a>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col">
-                            <a class="waves-effect waves-light btn">button</a>
-                        </div>
-                        <div class="col">
-                            <a class="waves-effect waves-light btn">button</a>
-                        </div>
-                    </div>
+                <div id="photography" class="megaMenuAr-tabcontent">
+                    <h3>Hello , world</h3>
+                    <p>هذا نص اخر</p>
                 </div>
 
-                <div id="tab3" class="tab-content left">
-                    <div class="row">
-                        <div class="col">
-                            <a class="waves-effect waves-light btn">button</a>
-                        </div>
-                        <div class="col">
-                            <a class="waves-effect waves-light btn">button</a>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col">
-                            <a class="waves-effect waves-light btn">button</a>
-                        </div>
-                        <div class="col">
-                            <a class="waves-effect waves-light btn">button</a>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col">
-                            <a class="waves-effect waves-light btn">button</a>
-                        </div>
-                        <div class="col">
-                            <a class="waves-effect waves-light btn">button</a>
-                        </div>
-                    </div>
+                <div id="video" class="megaMenuAr-tabcontent">
+                    <h3>Hello , world</h3>
+                    <p>وهذا ايضا نص مختلف عن النصوص السابقة</p>
                 </div>
 
+                <div class="megaMenuAr-tab">
+                    <button class="megaMenu-tablinks" onclick="openCourse(event, 'art')" id="defaultOpen">رسم</button>
+                    <button class="megaMenu-tablinks" onclick="openCourse(event, 'photography')">تصوير فوتوغرافي</button>
+                    <button class="megaMenu-tablinks" onclick="openCourse(event, 'video')">تحرير فيديو</button>
+                </div>
             </div>
-
-            <div class="tab-titles right">
-                <div class="active tab-btn"><a href="#tab1"> الرسم </a></div>
-                <div class="tab-btn"><a href="#tab2">Tab 2</a></div>
-                <div class="tab-btn"><a href="#tab3">Tab 3</a></div>
-            </div>
-
         </div>
-    </ul>
-
-    <nav class="wetAsphalt" style="margin-top: -64px ;">
-        <div class="nav-wrapper container">
-            <ul class="right hide-on-med-and-down">
-                <li><a href="sass.html" class="white-text">الوظائف</a></li>
-                <li><a href="badges.html" class="white-text">أعمال المتدربين</a></li>
-                <li><a href="sass.html" class="white-text">المتجر</a></li>
-                <li><a href="badges.html" class="white-text">المحتوى البصري</a></li>
-                <!-- Dropdown Trigger -->
-                <li><a class="dropdown-button white-text" href="#!" data-activates="dropdown1">الدورات<i class="material-icons right">arrow_drop_down</i></a></li>
-            </ul>
+        <a href="#home" class="right">محتوى بصري</a>
+        <a href="#news" class="right">متجر</a>
+        <a href="#home" class="right">اعمال متدربين</a>
+        <a href="#news" class="right">وظائف</a>
         </div>
-    </nav>
+    </div>
+
 
     <div class="container">
 
