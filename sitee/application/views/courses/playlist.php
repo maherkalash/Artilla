@@ -14,12 +14,12 @@
 
 <div class="container">
 
-    <h3 class="right-align wetAsphalt-text">اسم الكورس </h3>
+    <h3 class="<?php echo lang()=='en'? '' : 'right' ?>-align wetAsphalt-text"><?php echo LANG()=='en'? $courcename_en : $courcename  ?> </h3>
     <div class="row">
-        <div class="col l4 s12">
+        <div class="col l4 s12 <?php echo lang()=='en'? 'right' : '' ?>">
 
             <div class="card">
-                <div class="card-content right-align">
+                <div class="card-content <?php echo lang()=='en'? '' : 'right' ?>-align">
                     <div class="sec-head">
                   <p><?php echo trans('course_dets') ?></p>
                     </div>
@@ -46,7 +46,7 @@
             </div>
 
             <div class="card">
-                <div class="card-content right-align">
+                <div class="card-content <?php echo lang()=='en'? '' : 'right' ?>-align">
                     <div class="sec-head">
                       <p><?php echo trans('list_items') ?></p>
                     </div>
@@ -90,11 +90,11 @@
                         </div>
 
                         <div class="col l6">
-                            <h4 class="right-align wetAsphalt-text"><?php echo trans('lecturer') ?></h4>
-                            <p class="right-align">
+                            <h4 class="<?php echo lang()=='en'? '' : 'right' ?>-align wetAsphalt-text"><?php echo trans('lecturer') ?></h4>
+                            <p class="<?php echo lang()=='en'? '' : 'right' ?>-align">
                                 <?php echo $about_lec ?>
                             </p>
-                            <div class="right-align">
+                            <div class="<?php echo lang()=='en'? '' : 'right' ?>-align">
                                 <a class="btn btn-social-icon btn-facebook">
                                     <span class="fa fa-facebook"></span>
                                 </a>
@@ -135,13 +135,13 @@
                 </div>
             </div><!-- end  -->
         </div>
-        
+
 
         <div class="col l8">
             <div class="card" id="course__info">
-                <div class="card-content right-align">
-                    <h4 class="right-align midnightBlue-text"><?php echo trans('description') ?></h4>
-                    <p class="right-align wetAsphalt-text">
+                <div class="card-content <?php echo lang()=='en'? '' : 'right' ?>-align">
+                    <h4 class="<?php echo lang()=='en'? '' : 'right' ?>-align midnightBlue-text"><?php echo trans('description') ?></h4>
+                    <p class="<?php echo lang()=='en'? '' : 'right' ?>-align wetAsphalt-text">
                         <?php echo $video['description'] ?>
                    </p>
                 </div>
@@ -149,9 +149,9 @@
         </div>
         <div class="col l8">
             <div class="card" id="course__info">
-                <div class="card-content right-align">
-                    <h4 class="right-align midnightBlue-text"><?php echo trans('course_info') ?></h4>
-                    <p class="right-align wetAsphalt-text">
+                <div class="card-content <?php echo lang()=='en'? '' : 'right' ?>-align">
+                    <h4 class="<?php echo lang()=='en'? '' : 'right' ?>-align midnightBlue-text"><?php echo trans('course_info') ?></h4>
+                    <p class="<?php echo lang()=='en'? '' : 'right' ?>-align wetAsphalt-text">
                          <?php echo $course_info ?>
                    </p>
                 </div>
@@ -160,13 +160,13 @@
 
 
         <div class="col l12">
-             <div class="row right-align">
-                 <span class="label-course tag-course right">Art</span>
-                 <span class="label-course tag-course right">Design</span>
-                 <span class="label-course tag-course right">illustartor</span>
-                 <span class="label-course tag-course right">Art</span>
-                 <span class="label-course tag-course right">Design</span>
-                 <span class="label-course tag-course right">illustartor</span>
+             <div class="row <?php echo lang()=='en'? '' : 'right' ?>-align">
+                 <span class="label-course tag-course <?php echo lang()=='en'? '' : 'right' ?>">Art</span>
+                 <span class="label-course tag-course <?php echo lang()=='en'? '' : 'right' ?>">Design</span>
+                 <span class="label-course tag-course <?php echo lang()=='en'? '' : 'right' ?>">illustartor</span>
+                 <span class="label-course tag-course <?php echo lang()=='en'? '' : 'right' ?>">Art</span>
+                 <span class="label-course tag-course <?php echo lang()=='en'? '' : 'right' ?>">Design</span>
+                 <span class="label-course tag-course <?php echo lang()=='en'? '' : 'right' ?>">illustartor</span>
              </div>
         </div>
 

@@ -13,9 +13,15 @@
     <!--Social Button-->
     <link type="text/css" rel="stylesheet" href="<?php echo base_url() ?>assets/css/bootstrap-social.css"/>
     <!--Import Slider Css-->
-    <link type="text/css" rel="stylesheet" href="<?php echo base_url() ?>assets/slider/cssSlider.css"/>
+    <?php  if($selected !=='gallery')  { ?>
+      <link type="text/css" rel="stylesheet" href="<?php echo base_url() ?>assets/slider/cssSlider.css"/>
+  <?php  } ?>
+
+
     <!--Import Gallery Css-->
-    <link type="text/css" rel="stylesheet" href="<?php echo base_url() ?>assets/slider/cssSlider.css"/>
+      <?php  if($selected =='gallery')  { ?>
+    <link type="text/css" rel="stylesheet" href="<?php echo base_url() ?>assets/gallery/cssGallery.css""/>
+      <?php  } ?>
     <!--Import Custom Css-->
     <link type="text/css" rel="stylesheet" href="<?php echo base_url()?><?php echo LANG()=='en'? 'assets/css/custom_en.css': 'assets/css/custom.css' ?>"/>
 </head>

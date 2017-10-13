@@ -61,7 +61,7 @@
     <!-- make evrey item col l3 s12 -->
     <div class="col-sm-3 layg">
 
-        <div class="container no-pad-sides design filter art">
+        <div class="containerg no-pad-sides design filter art">
             <img src="gallery/gallery-imgs/gallery/2.jpg" class="image">
             <div class="overlay" onclick="openModal()">
                 <div class="top-left text-white">
