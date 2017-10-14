@@ -411,7 +411,6 @@ input.valid:not([type]), input.valid:not([type]):focus, input[type=text].valid:n
 }
 
 .container-course {
-    width: 200px;
     height: auto;
     margin: 2rem auto;
 }
@@ -708,5 +707,6 @@ input.valid:not([type]), input.valid:not([type]):focus, input[type=text].valid:n
 }
 
 .swal-button:focus {
-outline: none !important
+    outline: none !important
 }
+

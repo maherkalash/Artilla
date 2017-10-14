@@ -61,7 +61,7 @@
                         <img src="imgs/store/1.jpg"class="imgs-store">
                     </div>
                     <ul class="card-action-buttons">
-                        <li class="popup-price"><a class="btn-floating waves-effect waves-light blue-grey darken-4"><i class="material-icons">add_shopping_cart</i></a><span class="popuptext">5 $</span></li>
+                        <li class="popup-price"><a class="btn-floating waves-effect waves-light blue-grey darken-4" href="product_details.php"><i class="material-icons">add_shopping_cart</i></a><span class="popuptext">5 $</span></li>
                         <li><a class="btn-floating waves-effect waves-light grey lighten-3 activator"><i class="material-icons grey-text text-darken-3">more_vert</i></a></li>
                     </ul>
                     <div class="card-content row">
@@ -90,7 +90,7 @@
                         <img src="imgs/store/2.jpg"class="imgs-store">
                     </div>
                     <ul class="card-action-buttons">
-                        <li class="popup-price"><a class="btn-floating waves-effect waves-light blue-grey darken-4"><i class="material-icons">add_shopping_cart</i></a><span class="popuptext">5 $</span></li>
+                        <li class="popup-price"><a class="btn-floating waves-effect waves-light blue-grey darken-4" href="product_details.php"><i class="material-icons">add_shopping_cart</i></a><span class="popuptext">5 $</span></li>
                         <li><a class="btn-floating waves-effect waves-light grey lighten-3 activator"><i class="material-icons grey-text text-darken-3">more_vert</i></a></li>
                     </ul>
                     <div class="card-content row">
@@ -119,7 +119,7 @@
                         <img src="imgs/store/3.jpg"class="imgs-store">
                     </div>
                     <ul class="card-action-buttons">
-                        <li class="popup-price"><a class="btn-floating waves-effect waves-light blue-grey darken-4"><i class="material-icons">add_shopping_cart</i></a><span class="popuptext">5 $</span></li>
+                        <li class="popup-price"><a class="btn-floating waves-effect waves-light blue-grey darken-4" href="product_details.php"><i class="material-icons">add_shopping_cart</i></a><span class="popuptext">5 $</span></li>
                         <li><a class="btn-floating waves-effect waves-light grey lighten-3 activator"><i class="material-icons grey-text text-darken-3">more_vert</i></a></li>
                     </ul>
                     <div class="card-content row">
@@ -148,7 +148,7 @@
                         <img src="imgs/store/4.jpg"class="imgs-store">
                     </div>
                     <ul class="card-action-buttons">
-                        <li class="popup-price"><a class="btn-floating waves-effect waves-light blue-grey darken-4"><i class="material-icons">add_shopping_cart</i></a><span class="popuptext">5 $</span></li>
+                        <li class="popup-price"><a class="btn-floating waves-effect waves-light blue-grey darken-4" href="product_details.php"><i class="material-icons">add_shopping_cart</i></a><span class="popuptext">5 $</span></li>
                         <li><a class="btn-floating waves-effect waves-light grey lighten-3 activator"><i class="material-icons grey-text text-darken-3">more_vert</i></a></li>
                     </ul>
                     <div class="card-content row">
@@ -177,7 +177,7 @@
                         <img src="imgs/store/5.jpg"class="imgs-store">
                     </div>
                     <ul class="card-action-buttons">
-                        <li class="popup-price"><a class="btn-floating waves-effect waves-light blue-grey darken-4"><i class="material-icons">add_shopping_cart</i></a><span class="popuptext">5 $</span></li>
+                        <li class="popup-price"><a class="btn-floating waves-effect waves-light blue-grey darken-4" href="product_details.php"><i class="material-icons">add_shopping_cart</i></a><span class="popuptext">5 $</span></li>
                         <li><a class="btn-floating waves-effect waves-light grey lighten-3 activator"><i class="material-icons grey-text text-darken-3">more_vert</i></a></li>
                     </ul>
                     <div class="card-content row">
@@ -206,7 +206,7 @@
                         <img src="imgs/store/6.jpg"class="imgs-store">
                     </div>
                     <ul class="card-action-buttons">
-                        <li class="popup-price"><a class="btn-floating waves-effect waves-light blue-grey darken-4"><i class="material-icons">add_shopping_cart</i></a><span class="popuptext">5 $</span></li>
+                        <li class="popup-price"><a class="btn-floating waves-effect waves-light blue-grey darken-4" href="product_details.php"><i class="material-icons">add_shopping_cart</i></a><span class="popuptext">5 $</span></li>
                         <li><a class="btn-floating waves-effect waves-light grey lighten-3 activator"><i class="material-icons grey-text text-darken-3">more_vert</i></a></li>
                     </ul>
                     <div class="card-content row">
@@ -231,10 +231,11 @@
 
         </div>
 
-    <!--Import jQuery before materialize.js-->
-    <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
-    <script type="text/javascript" src="js/materialize.min.js"></script>
-    <script type="text/javascript" src="js/custom.js"></script>
+        <!--Import jQuery before materialize.js-->
+        <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+        <script type="text/javascript" src="js/materialize.min.js"></script>
+        <script type="text/javascript" src="js/customjq.js"></script>
+        <script type="text/javascript" src="js/customjs.js"></script>
 
 </body>
 </html>

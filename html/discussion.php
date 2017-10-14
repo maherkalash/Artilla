@@ -5,7 +5,6 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <!--Import materialize.css-->
     <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
-
     <!--Let browser know website is optimized for mobile-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <!-- FontAewsome -->
@@ -112,7 +111,7 @@
                                     </div>
                                 </div>
                                 <!-- Reply Box -->
-                                <div class="card z-depth-0 hidden-element" id="reply-box">
+                                <div class="card z-depth-0 " id="reply-box" style="display: none;">
                                     <div class="card-content wetAsphalt-text">
                                         <textarea id="textarea1" class="materialize-textarea right-align" placeholder="اترك رد ...."></textarea>
                                     </div>
@@ -124,10 +123,64 @@
                         </div>
                     </div>
                     <div class="card-action">
-                        <a class="midnightBlue-text pointer" id="reply-button">رد</a>
+                        <a class="midnightBlue-text pointer" id="reply-button" onclick="document.getElementById('reply-box').style.visibility='visible'">رد</a>
                         <a href="#" class="right wetAsphalt-text">@username_commenter</a>
                     </div>
                 </div>
+
+                <!-- Another Users Comments here -->
+                <div class="card">
+                    <div class="card-content wetAsphalt-text">
+                        <div class="row">
+                            <div class="col l2 right">
+                                <img src="http://via.placeholder.com/100x100" class="responsive-img">
+                            </div>
+                            <div class="col l10 right">
+                                <span class="card-title right-align">Adnan Diab</span>
+                                <p class="right-align">
+                                    هذا نص تجريبي لمحاكاة الاجابة التي ستوضع في هذه المنطقة لاعادة تصميم هذه القسم في حال وجود خطا بالتصميم او اذا كان يحوي بعض الاخطاء على الاجهزة المحمولة والخليوية
+                                </p>
+                                <!-- Reply  -->
+                                <div class="row mar-top">
+                                    <div class="col l2 right">
+                                        <img src="http://via.placeholder.com/100x100" class="responsive-img">
+                                    </div>
+                                    <div class="col l10 right">
+                                        <span class="card-title right-align">Maher Kalash <span style="font-size: 15px ;">@username_replyuser</span></span>
+                                        <p class="right-align">
+                                            هذا نص تجريبي لمحاكاة الاجابة التي ستوضع في هذه المنطقة لاعادة تصميم هذه القسم في حال وجود خطا بالتصميم او اذا كان يحوي بعض الاخطاء على الاجهزة المحمولة والخليوية
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="row mar-top">
+                                    <div class="col l2 right">
+                                        <img src="http://via.placeholder.com/100x100" class="responsive-img">
+                                    </div>
+                                    <div class="col l10 right">
+                                        <span class="card-title right-align">Maher Kalash <span style="font-size: 15px ;">@username_replyuser</span></span>
+                                        <p class="right-align">
+                                            هذا نص تجريبي لمحاكاة الاجابة التي ستوضع في هذه المنطقة لاعادة تصميم هذه القسم في حال وجود خطا بالتصميم او اذا كان يحوي بعض الاخطاء على الاجهزة المحمولة والخليوية
+                                        </p>
+                                    </div>
+                                </div>
+                                <!-- Reply Box -->
+                                <div class="card z-depth-0 " id="reply-box" style="display: none;">
+                                    <div class="card-content wetAsphalt-text">
+                                        <textarea id="textarea1" class="materialize-textarea right-align" placeholder="اترك رد ...."></textarea>
+                                    </div>
+                                    <div class="card-action">
+                                        <a href="#" class="wetAsphalt btn waves-effect waves-light">رد</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-action">
+                        <a class="midnightBlue-text pointer" id="reply-button" onclick="document.getElementById('reply-box').style.visibility='visible'">رد</a>
+                        <a href="#" class="right wetAsphalt-text">@username_commenter</a>
+                    </div>
+                </div>
+
 
                 <!-- Add Comment Box -->
                 <div class="card">
@@ -145,7 +198,10 @@
     <!--Import jQuery before materialize.js-->
     <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
     <script type="text/javascript" src="js/materialize.min.js"></script>
-    <script type="text/javascript" src="js/custom.js"></script>
+    <script type="text/javascript" src="js/customjq.js"></script>
+    <script type="text/javascript" src="js/customjs.js"></script>
+
+
 
 </body>
 </html>

@@ -135,7 +135,7 @@
                 <i class="fa fa-caret-down"></i>
             </button>
             <div class="megaMenuAr-dropdown-content">
-                <div id="art" class="megaMenuAr-tabcontent">
+                <div id="art" class="megaMenuAr-tabcontent activate-tab">
                     <h3>Hello , world</h3>
                     <p>هذا النص تجربة من اجل معرفة المشاكل المتعلقة باللغة العرية .</p>
                 </div>
@@ -151,9 +151,9 @@
                 </div>
 
                 <div class="megaMenuAr-tab">
-                    <button class="megaMenu-tablinks" onclick="openCourse(event, 'art')" id="defaultOpen">رسم</button>
-                    <button class="megaMenu-tablinks" onclick="openCourse(event, 'photography')">تصوير فوتوغرافي</button>
-                    <button class="megaMenu-tablinks" onclick="openCourse(event, 'video')">تحرير فيديو</button>
+                    <button class="megaMenu-tablinks active" href="#" onclick="openCourse(event, 'art')" id="defaultOpen">رسم</button>
+                    <button class="megaMenu-tablinks" href="#" onclick="openCourse(event, 'photography')">تصوير فوتوغرافي</button>
+                    <button class="megaMenu-tablinks" href="#" onclick="openCourse(event, 'video')">تحرير فيديو</button>
                 </div>
             </div>
         </div>
@@ -162,35 +162,6 @@
         <a href="#home" class="right">اعمال متدربين</a>
         <a href="#news" class="right">وظائف</a>
     </div>
-
-
-<!--
-<nav class="transparent z-depth-0">
-    <div class="nav-wrapper container">
-        <a href="#" class="brand-logo white-text" style="z-index: 100">Artilla</a>
-        <ul id="nav-mobile" class="right hide-on-med-and-down">
-            <li><a class="waves-effect waves-light btn account-btn">تسجيل الدخول</a></li>
-            <li><a class="waves-effect waves-light btn account-btn">انشاء حساب</a></li>
-        </ul>
-    </div>
-</nav> -->
-
-
-
-<!--
-<nav class="wetAsphalt" style="margin-top: -64px ;">
-    <div class="nav-wrapper container">
-        <ul class="right hide-on-med-and-down">
-            <li><a href="sass.html" class="white-text">الوظائف</a></li>
-            <li><a href="badges.html" class="white-text">أعمال المتدربين</a></li>
-            <li><a href="sass.html" class="white-text">المتجر</a></li>
-            <li><a href="badges.html" class="white-text">المحتوى البصري</a></li>
-
-            <li><a class="dropdown-button white-text" href="#!" data-activates="dropdown1">الدورات<i class="material-icons right">arrow_drop_down</i></a></li>
-        </ul>
-    </div>
-</nav> -->
-
 
 
 <!--Import jQuery before materialize.js-->
@@ -214,6 +185,13 @@
 
         // Get the element with id="defaultOpen" and click on it
         document.getElementById("defaultOpen").click();
+
+        jQuery(document).ready(function($) {
+            $(".megaMenu-tablinks").hover(function() {
+
+            });
+        });
+
     </script>
 
 </body>

@@ -25,10 +25,10 @@
 
     <nav class="transparent z-depth-0">
         <div class="nav-wrapper container">
-            <a href="#" class="brand-logo white-text" style="z-index: 100">Artilla</a>
+            <a href="/" class="brand-logo white-text" style="z-index: 100">Artilla</a>
             <ul id="nav-mobile" class="right hide-on-med-and-down">
-                <li><a class="waves-effect waves-light btn account-btn">تسجيل الدخول</a></li>
-                <li><a class="waves-effect waves-light btn account-btn">انشاء حساب</a></li>
+                <li><a class="waves-effect waves-light btn account-btn" href="login_register.php">تسجيل الدخول</a></li>
+                <li><a class="waves-effect waves-light btn account-btn" href="login_register.php">انشاء حساب</a></li>
             </ul>
         </div>
     </nav>
@@ -73,9 +73,9 @@
                 </div>
             </div>
         </div>
-        <a href="#home" class="right">محتوى بصري</a>
-        <a href="#news" class="right">متجر</a>
-        <a href="#home" class="right">اعمال متدربين</a>
+        <a href="gallery.php" class="right">محتوى بصري</a>
+        <a href="store.php" class="right">متجر</a>
+        <a href="gallery.php" class="right">اعمال متدربين</a>
         <a href="#news" class="right">وظائف</a>
         </div>
     </div>
@@ -85,26 +85,36 @@
 
         <div class="row mar-top ">
             <div class="col l6 container-text">
-                <img class="responsive-img brightness radius-img" src="imgs/design.jpg">
+                <a href="section_courses.php">
+                    <img class="responsive-img brightness radius-img" src="imgs/design.jpg" style="height: 18.5rem;">
+                </a>
                 <div class="centered" style="font-size: 5rem">Design</div>
             </div>
 
             <div class="col l3 container-text">
-                <img class="responsive-img introThumbnail brightness radius-img" src="imgs/photography.jpg">
+                <a href="course.php">
+                    <img class="responsive-img introThumbnail brightness radius-img" src="imgs/photography.jpg">
+                </a>
                 <div class="centered introThumbnail-text">Photography</div>
             </div>
 
             <div class="col l3 container-text">
-                <img class="responsive-img introThumbnail brightness radius-img" src="imgs/editing.png">
+                <a href="section_courses.php">
+                    <img class="responsive-img introThumbnail brightness radius-img" src="imgs/editing.png">
+                </a>
                 <div class="centered introThumbnail-text">Editing</div>
             </div>
 
             <div class="col l3 container-text">
-                <img class="responsive-img introThumbnail brightness radius-img" src="imgs/drawing.jpg">
+                <a href="section_courses.php">
+                    <img class="responsive-img introThumbnail brightness radius-img" src="imgs/drawing.jpg">
+                </a>
                 <div class="centered introThumbnail-text">Drawing</div>
             </div>
             <div class="col l3 container-text">
-                <img class="responsive-img introThumbnail brightness radius-img" src="imgs/vfx.jpg">
+                <a href="section_courses.php">
+                    <img class="responsive-img introThumbnail brightness radius-img" src="imgs/vfx.jpg">
+                </a>
                 <div class="centered introThumbnail-text">VFX</div>
             </div>
         </div>
@@ -241,9 +251,10 @@
     <!--Import jQuery before materialize.js-->
     <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
     <script type="text/javascript" src="js/materialize.min.js"></script>
+    <script type="text/javascript" src="js/customjq.js"></script>
+    <script type="text/javascript" src="js/customjs.js"></script>
     <script type="text/javascript" src="slider/jsSlider.js"></script>
     <script type="text/javascript" src="gallery/jsGallery.js"></script>
-    <script type="text/javascript" src="js/custom.js"></script>
 
 </body>
 </html>

@@ -6,6 +6,15 @@ $(document).ready(function(){
     $('.slider').slider();
 });
 
+//show reply box
+
+$("#reply-button").click(function(){
+    $("#reply-box")(function(){
+            $(this).show();
+    });
+});
+
+
 /*Hover Tab [Header Nav (MEGA MENU)]
 jQuery(document).ready(function($) {
     $(".tab-titles div").hover(function() {
@@ -76,9 +85,4 @@ function myFunction() {
     }
 }
 
-//show reply box
-$(document).ready(function(){
-    $("#reply-button").click(function(){
-        $("#reply-box").show();
-    });
-});
+

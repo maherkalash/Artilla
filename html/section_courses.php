@@ -156,7 +156,7 @@
     <!--Import jQuery before materialize.js-->
     <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
     <script type="text/javascript" src="js/materialize.min.js"></script>
-    <script type="text/javascript" src="js/custom.js"></script>
-
+    <script type="text/javascript" src="js/customjq.js"></script>
+    <script type="text/javascript" src="js/customjs.js"></script>
 </body>
 </html>
