@@ -539,6 +539,12 @@ input.valid:not([type]), input.valid:not([type]):focus, input[type=text].valid:n
     padding: 10px !important;
 }
 
+.mar-pad-ques-textarea {
+    margin: 10px 0 !important;
+    padding: 10px !important;
+    height:15rem !important;
+}
+
 /* No Classes  */
 .no-border {  border: 0 solid transparent !important ; }
 
@@ -710,3 +716,36 @@ input.valid:not([type]), input.valid:not([type]):focus, input[type=text].valid:n
     outline: none !important
 }
 
+#confirmForm {
+    background-color: #ffffff;
+    margin: 100px auto;
+    padding: 40px;
+    width: 50%;
+    min-width: 300px;
+}
+/* Hide all steps by default: */
+.tab {
+    display: none;
+}
+
+#prevBtn {
+    background-color: #bbbbbb;
+}
+/* Make circles that indicate the steps of the form: */
+.step-confirm {
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbbbbb;
+    border: none;
+    border-radius: 50%;
+    display: inline-block;
+    opacity: 0.5;
+}
+.step-confirm.active {
+    opacity: 1;
+}
+/* Mark the steps that are finished and valid: */
+.step-confirm.finish {
+    background-color: #34495e;
+}

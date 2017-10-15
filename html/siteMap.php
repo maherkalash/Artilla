@@ -32,9 +32,11 @@
             <div class="col l6">
                 <a class="waves-effect waves-light btn btn-block wetAsphalt" target="_blank" href="discussion.php">Discussion</a>
                 <a class="waves-effect waves-light btn btn-block wetAsphalt" target="_blank" href="frequent_question.php">Frequent_Question </a>
-                <a class="waves-effect waves-light btn btn-block wetAsphalt" target="_blank" href="add_qs.php">Add Question <span class="red-text"> unfinished </span></a>
+                <a class="waves-effect waves-light btn btn-block wetAsphalt" target="_blank" href="add_qs.php">Add Question </a>
                 <a class="waves-effect waves-light btn btn-block wetAsphalt" target="_blank" href="login_register.php">Login & Register</a>
                 <a class="waves-effect waves-light btn btn-block wetAsphalt" target="_blank" href="product_details.php">Product Details</a>
+                <a class="waves-effect waves-light btn btn-block wetAsphalt" target="_blank" href="confirm.php">Confirm Page <span class="red-text"> new </span></a>
+
             </div>
         </div>
         <h5> - <span class="grey-text"> Test </span> Pages</h5>

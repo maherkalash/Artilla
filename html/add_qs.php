@@ -53,8 +53,11 @@
                 </ul>
             </div>
             <div class="col l8">
-                    <input class="right-align white mar-pad-ques-form" type="text" placeholder="العنوان">
-                    <textarea class="right-align materialize-textarea white" type="text" placeholder="السؤال"></textarea>
+                <input class="right-align white mar-pad-ques-form" type="text" placeholder="العنوان">
+                <textarea class="right-align materialize-textarea white mar-pad-ques-textarea" type="text" placeholder="السؤال"></textarea>
+                <a class="waves-effect waves-light btn pink lighten-2 right">اضافة سؤال</a>
+                <a class="waves-effect waves-light btn grey lighten-1 grey-text text-darken-4">الغاء</a>
+
             </div>
         </div>
     </div>
