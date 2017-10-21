@@ -269,7 +269,7 @@ div.megaMenuAr-tab button.active {
 /* Bottom left text */
 .bottom-left {
     position: absolute;
-    bottom: 8px;
+    bottom: 0.2rem;
     left: 16px;
 }
 
