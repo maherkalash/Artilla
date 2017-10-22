@@ -25,7 +25,7 @@
 
     <nav class="transparent z-depth-0">
         <div class="nav-wrapper container">
-            <a href="/" class="brand-logo white-text" style="z-index: 100">Artilla</a>
+            <a href="/" class="brand-logo wetAsphalt-text" style="z-index: 100">Artilla</a>
             <ul id="nav-mobile" class="right hide-on-med-and-down">
                 <li><a class="waves-effect waves-light btn account-btn" href="login_register.php">تسجيل الدخول</a></li>
                 <li><a class="waves-effect waves-light btn account-btn" href="login_register.php">انشاء حساب</a></li>
@@ -33,7 +33,7 @@
         </div>
     </nav>
 
-    <div class="main-screen">
+   <!--- <div class="main-screen">
         <ul class="slideshow">
             <li class="image active"> <h1 class="slider-text centered">...Scroll Down To Reveal Content</h1></li>
             <li class="image"><h1 class="slider-text bottom-right">...Scroll Down To Reveal Content</h1></li>
@@ -41,43 +41,76 @@
             <li class="image"><h1 class="slider-text centered">...Scroll Down To Reveal Content</h1></li>
             <li class="image"><h1 class="slider-text bottom-left">...Scroll Down To Reveal Content</h1></li>
         </ul>
-    </div>
+    </div> -->
 
     <!-- Mega Menu -->
-    <div class="megaMenuAr z-depth-1" style="margin-top: -64px">
+    <div class="megaMenuAr z-depth-1">
         <div class="container">
-        <div class="megaMenuAr-dropdown right ">
-            <button class="dropbtn">الدورات
-                <i class="fa fa-caret-down"></i>
-            </button>
-            <div class="megaMenuAr-dropdown-content">
-                <div id="art" class="megaMenuAr-tabcontent">
-                    <h3>Hello , world</h3>
-                    <p>هذا النص تجربة من اجل معرفة المشاكل المتعلقة باللغة العرية .</p>
-                </div>
+            <div class="megaMenuAr-dropdown right ">
+                <button class="dropbtn">الدورات
+                    <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="megaMenuAr-dropdown-content">
+                    <div id="art" class="megaMenuAr-tabcontent">
+                        <h3>Hello , world</h3>
+                        <p>هذا النص تجربة من اجل معرفة المشاكل المتعلقة باللغة العرية .</p>
+                    </div>
 
-                <div id="photography" class="megaMenuAr-tabcontent">
-                    <h3>Hello , world</h3>
-                    <p>هذا نص اخر</p>
-                </div>
+                    <div id="photography" class="megaMenuAr-tabcontent">
+                        <h3>Hello , world</h3>
+                        <p>هذا نص اخر</p>
+                    </div>
 
-                <div id="video" class="megaMenuAr-tabcontent">
-                    <h3>Hello , world</h3>
-                    <p>وهذا ايضا نص مختلف عن النصوص السابقة</p>
-                </div>
+                    <div id="video" class="megaMenuAr-tabcontent">
+                        <h3>Hello , world</h3>
+                        <p>وهذا ايضا نص مختلف عن النصوص السابقة</p>
+                    </div>
 
-                <div class="megaMenuAr-tab">
-                    <button class="megaMenu-tablinks" onclick="openCourse(event, 'art')" id="defaultOpen">رسم</button>
-                    <button class="megaMenu-tablinks" onclick="openCourse(event, 'photography')">تصوير فوتوغرافي</button>
-                    <button class="megaMenu-tablinks" onclick="openCourse(event, 'video')">تحرير فيديو</button>
+                    <div class="megaMenuAr-tab">
+                        <button class="megaMenu-tablinks" onclick="openCourse(event, 'art')" id="defaultOpen">رسم</button>
+                        <button class="megaMenu-tablinks" onclick="openCourse(event, 'photography')">تصوير فوتوغرافي</button>
+                        <button class="megaMenu-tablinks" onclick="openCourse(event, 'video')">تحرير فيديو</button>
+                    </div>
                 </div>
             </div>
+            <a href="gallery.php" class="right">محتوى بصري</a>
+            <a href="store.php" class="right">متجر</a>
+            <a href="gallery.php" class="right">اعمال متدربين</a>
+            <a href="#news" class="right">وظائف</a>
         </div>
-        <a href="gallery.php" class="right">محتوى بصري</a>
-        <a href="store.php" class="right">متجر</a>
-        <a href="gallery.php" class="right">اعمال متدربين</a>
-        <a href="#news" class="right">وظائف</a>
-        </div>
+    </div>
+
+    <div class="slider z-depth-1">
+        <ul class="slides">
+            <li>
+                <img src="https://lorempixel.com/580/250/nature/1"> <!-- random image -->
+                <div class="caption center-align">
+                    <h3>This is our big Tagline!</h3>
+                    <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+                </div>
+            </li>
+            <li>
+                <img src="https://lorempixel.com/580/250/nature/2"> <!-- random image -->
+                <div class="caption left-align">
+                    <h3>Left Aligned Caption</h3>
+                    <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+                </div>
+            </li>
+            <li>
+                <img src="https://lorempixel.com/580/250/nature/3"> <!-- random image -->
+                <div class="caption right-align">
+                    <h3>Right Aligned Caption</h3>
+                    <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+                </div>
+            </li>
+            <li>
+                <img src="https://lorempixel.com/580/250/nature/4"> <!-- random image -->
+                <div class="caption center-align">
+                    <h3>This is our big Tagline!</h3>
+                    <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+                </div>
+            </li>
+        </ul>
     </div>
 
 
@@ -86,34 +119,34 @@
         <div class="row mar-top ">
             <div class="col l6 container-text">
                 <a href="section_courses.php">
-                    <img class="responsive-img brightness radius-img" src="imgs/design.jpg" style="height: 18.5rem;">
+                    <img class="responsive-img brightness radius-img z-depth-1" src="imgs/design.jpg" style="height: 18.5rem;">
                 </a>
                 <div class="centered" style="font-size: 5rem">Design</div>
             </div>
 
             <div class="col l3 container-text">
                 <a href="course.php">
-                    <img class="responsive-img introThumbnail brightness radius-img" src="imgs/photography.jpg">
+                    <img class="responsive-img introThumbnail brightness radius-img z-depth-1" src="imgs/photography.jpg">
                 </a>
                 <div class="centered introThumbnail-text">Photography</div>
             </div>
 
             <div class="col l3 container-text">
                 <a href="section_courses.php">
-                    <img class="responsive-img introThumbnail brightness radius-img" src="imgs/editing.png">
+                    <img class="responsive-img introThumbnail brightness radius-img z-depth-1" src="imgs/editing.png">
                 </a>
                 <div class="centered introThumbnail-text">Editing</div>
             </div>
 
             <div class="col l3 container-text">
                 <a href="section_courses.php">
-                    <img class="responsive-img introThumbnail brightness radius-img" src="imgs/drawing.jpg">
+                    <img class="responsive-img introThumbnail brightness radius-img z-depth-1" src="imgs/drawing.jpg">
                 </a>
                 <div class="centered introThumbnail-text">Drawing</div>
             </div>
             <div class="col l3 container-text">
                 <a href="section_courses.php">
-                    <img class="responsive-img introThumbnail brightness radius-img" src="imgs/vfx.jpg">
+                    <img class="responsive-img introThumbnail brightness radius-img z-depth-1" src="imgs/vfx.jpg">
                 </a>
                 <div class="centered introThumbnail-text">VFX</div>
             </div>
@@ -129,7 +162,7 @@
 
         <div class="row">
             <h4 class=" col l12 right-align ques-intro wetAsphalt-text">
-                <i class="fa fa-question-circle-o pink-text text-lighten-2" aria-hidden="true"></i> من يمكنه الاستفادة من المنصة
+                 من يمكنه الاستفادة من المنصة<span class="pink-text text-lighten-2">؟</span>
             </h4>
             <div class="col l3">
                 <div class="card-panel center-align">
@@ -160,7 +193,7 @@
 
         <div class="row">
             <h4 class=" col l12 right-align ques-intro wetAsphalt-text">
-                <i class="fa fa-question-circle-o pink-text text-lighten-2" aria-hidden="true"></i> ماذا تحوي المنصة
+                ماذا تحوي المنصة<span class="pink-text text-lighten-2">؟</span>
             </h4>
             <div class="col l3">
                 <div class="card-panel center-align">
