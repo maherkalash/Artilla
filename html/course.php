@@ -51,7 +51,7 @@
                 <li><a href="badges.html" class="grey-text text-darken-4">الشهادات</a></li>
                 <li><a href="sass.html" class="grey-text text-darken-4">اسئلة متكررة</a></li>
                 <li><a href="badges.html" class="grey-text text-darken-4">منتدى النقاش</a></li>
-                <li><a href="#course__info" class="grey-text text-darken-4">معلومات الدورة</a></li>
+                <li><a href="#course__info" class="grey-text text-darken-4 scroll">معلومات الدورة</a></li>
             </ul>
         </div>
     </nav>
@@ -93,7 +93,7 @@
                         <div class="sec-head">
                             <p>الفيديوهات</p>
                         </div>
-                        <input type="text" class="right-align" id="myInput" onkeyup="myFunction()" placeholder="البحث بالكورس .."></textarea>
+                        <input type="text" class="right-align" id="myInput" onkeyup="SearchCouFunc()" placeholder="البحث بالكورس .."></textarea>
 
                         <ul id="myUL">
                             <li><a href="#">Adele</a></li>

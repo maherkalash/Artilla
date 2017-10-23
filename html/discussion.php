@@ -44,7 +44,7 @@
             <!-- Question related -->
             <div class="col l4">
                 <a class="btn btn-block pink lighten-2">اضافة سؤال</a>
-                <input type="text" id="myInput" class="right-align" onkeyup="myFunction()" placeholder="ابحث عن سؤال ...">
+                <input type="text" id="myInput" class="right-align" onkeyup="SearchQAFunc()" placeholder="ابحث عن سؤال ...">
                 <ul class="collection with-header" id="myUL-qs">
                     <li> <a href="#!" class="collection-item right-align"><span id="dots-coll-ques"> هاي </span><span class="left"><i class="material-icons tiny">comment</i>20</span></a></li>
                     <li> <a href="#!" class="collection-item right-align active"><span id="dots-coll-ques"> ماهي افضل الايقونات للتصميم ؟ </span><span class="left"><i class="material-icons tiny">comment</i>110</span></a></li>

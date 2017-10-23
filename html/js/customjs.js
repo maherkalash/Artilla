@@ -29,7 +29,7 @@ jQuery(document).ready(function($) {
 
 
 //Search course
-function myFunction() {
+function SearchCouFunc() {
     // Declare variables
     var input, filter, ul, li, a, i;
     input = document.getElementById('myInput');
@@ -49,7 +49,7 @@ function myFunction() {
 }
 
 //Search question
-function myFunction() {
+function SearchQAFunc() {
     // Declare variables
     var input, filter, ul, li, a, i;
     input = document.getElementById('myInput');
