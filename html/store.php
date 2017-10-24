@@ -62,7 +62,7 @@
                     </div>
                     <ul class="card-action-buttons">
                         <li class="popup-price"><a class="btn-floating waves-effect waves-light blue-grey darken-4" href="product_details.php"><i class="material-icons">add_shopping_cart</i></a><span class="popuptext">5 $</span></li>
-                        <li><a class="btn-floating waves-effect waves-light grey lighten-3 activator"><i class="material-icons grey-text text-darken-3">more_vert</i></a></li>
+                        <li><a class="btn-floating waves-effect waves-light grey lighten-3 modal-trigger" href="#quickView"><i class="material-icons grey-text text-darken-3">more_vert</i></a></li>
                     </ul>
                     <div class="card-content row">
                         <div class="col l10">
@@ -230,6 +230,48 @@
             </div>
 
         </div>
+
+    </div>
+
+    <!-- Quick view Modal Structure -->
+    <div id="quickView" class="modal modal-fixed-footer no-scroll">
+        <div class="sec-head">
+            <h4>Quick View - Canvas 126</h4>
+        </div>
+        <div class="modal-content">
+            <div class="row">
+                <div class="col l6">
+                    <img src="imgs/store/1.jpg" class="responsive-img z-depth-2">
+                </div>
+                <div class="col l6">
+                    <table class="bordered highlight">
+                        <tbody>
+                        <tr>
+                            <td><a href="#">@adnan_99</a></td>
+                            <td class="right-align">الرسام</td>
+                        </tr>
+                        <tr>
+                            <td>A_5464ghf</td>
+                            <td class="right-align">باركود</td>
+                        </tr>
+                        <tr>
+                            <td>اعمال فنية</td>
+                            <td class="right-align">الصنف</td>
+                        </tr>
+                        <tr>
+                            <td>Only 6 Left</td>
+                            <td class="right-align">العدد</td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <div class="modal-footer">
+            <a href="#!" class="modal-action modal-close waves-effect btn-flat">Cancle</a>
+            <a href="#!" class="waves-effect btn wetAsphalt white-text">Buy Now</a>
+        </div>
+    </div>
 
         <!--Import jQuery before materialize.js-->
         <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>

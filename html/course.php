@@ -63,10 +63,10 @@
             <div class="col l4 s12">
 
                 <div class="card">
+                    <div class="sec-head">
+                        <p>معلومات سريعة</p>
+                    </div>
                     <div class="card-content right-align">
-                        <div class="sec-head">
-                            <p>معلومات سريعة</p>
-                        </div>
 
                         <ul class="collapsible z-depth-0 collapsible-border">
                             <li>
@@ -89,10 +89,10 @@
                 </div>
 
                 <div class="card">
+                    <div class="sec-head">
+                        <p>الفيديوهات</p>
+                    </div>
                     <div class="card-content right-align">
-                        <div class="sec-head">
-                            <p>الفيديوهات</p>
-                        </div>
                         <input type="text" class="right-align" id="myInput" onkeyup="SearchCouFunc()" placeholder="البحث بالكورس .."></textarea>
 
                         <ul id="myUL">

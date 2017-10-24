@@ -196,11 +196,12 @@ div.megaMenuAr-tab button.active {
 }
 
 .sec-head{
-    background-color: #eee;
+    background-color: #34495e;
     width: 100%;
     padding: 12px;
     text-align: center;
     font-size: 20px;
+    color : #ddd ;
 }
 
 /* Label */
@@ -547,6 +548,7 @@ input.valid:not([type]), input.valid:not([type]):focus, input[type=text].valid:n
 
 /* No Classes  */
 .no-border {  border: 0 solid transparent !important ; }
+.no-scroll {overflow : hidden !important; }
 
 .collapsible-border {
     /* border-top: 1px solid #ddd; */
