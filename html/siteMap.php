@@ -27,6 +27,9 @@
                 <a class="waves-effect waves-light btn btn-block wetAsphalt" target="_blank" href="gallery.php">Gallery</a>
                 <a class="waves-effect waves-light btn btn-block wetAsphalt" target="_blank" href="course.php">Course Info</a>
                 <a class="waves-effect waves-light btn btn-block wetAsphalt" target="_blank" href="store.php">Store</a>
+                <a class="waves-effect waves-light btn btn-block wetAsphalt" target="_blank" href="terms.php">Terms Page<span class="red-text"> new </span></a>
+                <a class="waves-effect waves-light btn btn-block wetAsphalt" target="_blank" href="contactus.php">Contactus<span class="red-text"> new </span></a>
+
 
             </div>
             <div class="col l6">
@@ -35,7 +38,8 @@
                 <a class="waves-effect waves-light btn btn-block wetAsphalt" target="_blank" href="add_qs.php">Add Question </a>
                 <a class="waves-effect waves-light btn btn-block wetAsphalt" target="_blank" href="login_register.php">Login & Register</a>
                 <a class="waves-effect waves-light btn btn-block wetAsphalt" target="_blank" href="product_details.php">Product Details</a>
-                <a class="waves-effect waves-light btn btn-block wetAsphalt" target="_blank" href="confirm.php">Confirm Page <span class="red-text"> new </span></a>
+                <a class="waves-effect waves-light btn btn-block wetAsphalt" target="_blank" href="confirm.php">Confirm Page</a>
+                <a class="waves-effect waves-light btn btn-block wetAsphalt" target="_blank" href="hwandcert.php    ">homework and certificate <span class="red-text"> new </span></a>
 
             </div>
         </div>

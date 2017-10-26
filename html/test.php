@@ -124,6 +124,191 @@
             height: 300px;
         }
 
+        /* Dropdown Button */
+
+        .dropbtn {
+            background-color: #4CAF50;
+            color: white;
+            padding: 16px;
+            font-size: 16px;
+            border: none;
+            cursor: pointer;
+        }
+
+        /* The container <div> - needed to position the dropdown content */
+        .dropdowno {
+            position: relative;
+            display: inline-block;
+        }
+
+        /* Dropdown Content (Hidden by Default) */
+        .dropdowno-content {
+            display: none;
+            position: absolute;
+            background-color: #f9f9f9;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            z-index: 1;
+        }
+
+        /* Links inside the dropdown */
+        .dropdowno-content a {
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+        }
+
+        /* Change color of dropdown links on hover */
+        .dropdowno-content a:hover {background-color: #f1f1f1}
+
+        /* Show the dropdown menu on hover */
+        .dropdowno:hover .dropdowno-content {
+            display: block;
+        }
+
+        /* Change the background color of the dropdown button when the dropdown content is shown */
+        .dropdowno:hover .dropbtn {
+            background-color: #3e8e41;
+        }
+
+        /* facebook reaction style */
+
+        .feed .love-btn {
+            background: #f06292;
+            color : #fff;
+            display: inline-block;
+            position: relative;
+            padding: 12px 12px 6px 12px;
+            cursor: pointer;
+            border-radius: 4px ;
+            transition: 0.2s;
+        }
+        .feed .love-btn::before {
+            content: ".";
+            opacity: 0;
+            display: block;
+            width: 44px;
+            height: 10px;
+            position: absolute;
+            top: -10px;
+            left: 0;
+        }
+        .feed .love-btn .reaction-box {
+            position: absolute;
+            width: 280px; /*donr forget edit when add like button*/
+            height: 55px;
+            background: #FFF;
+            box-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
+            border-radius: 28px;
+            left: -25px;
+            bottom: 3.5rem;
+            display: none;
+        }
+        .feed .love-btn .reaction-box .reaction-icon.angry {
+            animation: fadeInLoad-angry 0.3s;
+            -webkit-animation-timing-function: ease-out;
+            animation-timing-function: ease-out;
+            background-position: 0px 0px;
+        }
+        .feed .love-btn .reaction-box .reaction-icon.flower {
+            animation: fadeInLoad-flower 0.3s;
+            -webkit-animation-timing-function: ease-out;
+            animation-timing-function: ease-out;
+            background-position: 0px -40px;
+        }
+        .feed .love-btn .reaction-box .reaction-icon.haha {
+            animation: fadeInLoad-haha 0.3s;
+            -webkit-animation-timing-function: ease-out;
+            animation-timing-function: ease-out;
+            background-position: 0px -80px;
+        }
+        .feed .love-btn .reaction-box .reaction-icon.like {
+            animation: fadeInLoad-like 0.3s;
+            -webkit-animation-timing-function: ease-out;
+            animation-timing-function: ease-out;
+            background-position: 0px -120px;
+        }
+        .feed .love-btn .reaction-box .reaction-icon.love {
+            animation: fadeInLoad-love 0.3s;
+            -webkit-animation-timing-function: ease-out;
+            animation-timing-function: ease-out;
+            background-position: 0px -160px;
+        }
+        .feed .love-btn .reaction-box .reaction-icon.sad {
+            animation: fadeInLoad-sad 0.3s;
+            -webkit-animation-timing-function: ease-out;
+            animation-timing-function: ease-out;
+            background-position: 0px -200px;
+        }
+        .feed .love-btn .reaction-box .reaction-icon.wow {
+            animation: fadeInLoad-wow 0.3s;
+            -webkit-animation-timing-function: ease-out;
+            animation-timing-function: ease-out;
+            background-position: 0px -240px;
+        }
+        .feed .love-btn .reaction-box .reaction-icon {
+            display: inline-block;
+            width: 40px;
+            height: 40px;
+            background: url(imgs/react.png);
+            background-size: cover;
+            border-radius: 20px;
+            margin: 8px 4px 0 4px;
+            text-align: center;
+            pointer-events: none;
+            transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+            opacity: 0;
+            transform: translate(0, 100px) scale(0);
+        }
+        .feed .love-btn .reaction-box .reaction-icon label {
+            padding: 4px 8px;
+            position: relative;
+            top: -30px;
+            border-radius: 4px;
+            font-size: 11px;
+            color: #FFF;
+            background: #333;
+            visibility: hidden;
+        }
+        .feed .love-btn .reaction-box .reaction-icon.show {
+            opacity: 1;
+            transform: translate(0, 0) scale(1);
+            pointer-events: auto;
+        }
+        .feed .love-btn .reaction-box .reaction-icon:hover {
+            transform: scale(1.4);
+            transform-origin: bottom;
+        }
+        .feed .love-btn .reaction-box .reaction-icon:hover label {
+            visibility: visible;
+        }
+        .feed .love-btn:hover {
+            background: #34495e;
+        }
+
+        .lovebtn-clicked {
+            background-color: green !important;
+            color : #f06292 !important;
+        }
+
+        /* cards overlay  */
+        #cardOverlay {
+            position: fixed;
+            display: none;
+            width: 100%;
+            height: 100%;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-color: rgba(0,0,0,0.5);
+            z-index: 2;
+            cursor: pointer;
+            transition: 0.3 ;
+        }
+
+
     </style>
 </head>
 
@@ -164,6 +349,98 @@
         <a href="#news" class="right">وظائف</a>
     </div>
 
+    <!-- Facebook Reaction Code -->
+    <div class="center-align" style="margin-top: 25%">
+        <div class="feed">
+            <a class="love-btn">
+                <i class="material-icons">favorite</i>
+
+                <div class="reaction-box">
+                  <!--  <div class="reaction-icon like">
+                        <label>Like</label>
+                    </div>  -->
+                    <div class="reaction-icon love">
+                        <label>Love</label>
+                    </div>
+                    <div class="reaction-icon haha">
+                        <label>Haha</label>
+                    </div>
+                    <div class="reaction-icon wow">
+                        <label>Wow</label>
+                    </div>
+                    <div class="reaction-icon sad">
+                        <label>Sad</label>
+                    </div>
+                    <div class="reaction-icon angry">
+                        <label>Angry</label>
+                    </div>
+                </div>
+            </a>
+        </div>
+    </div>
+
+    <div class="row">
+        <h4 class=" col l12 right-align ques-intro wetAsphalt-text">
+            من يمكنه الاستفادة من المنصة<span class="pink-text text-lighten-2">؟</span>
+        </h4>
+        <div class="col l3" onclick="on()">
+            <div class="card-panel center-align">
+                <i class="fa fa-apple fa-5x wetAsphalt-text" aria-hidden="true"></i>
+                <h4 class="pink-text text-lighten-2">الطلاب</>
+            </div>
+        </div>
+        <div class="col l3 center-align">
+            <div class="card-panel">
+                <i class="fa fa-bitbucket fa-5x wetAsphalt-text" aria-hidden="true"></i>
+                <h4 class="pink-text text-lighten-2">الطلاب</h4>
+            </div>
+        </div>
+        <div class="col l3 center-align">
+            <div class="card-panel">
+                <i class="fa fa-bluetooth fa-5x wetAsphalt-text" aria-hidden="true"></i>
+                <h4 class="pink-text text-lighten-2">الطلاب</h4>
+            </div>
+        </div>
+        <div class="col l3 center-align">
+            <div class="card-panel">
+                <i class="fa fa-amazon fa-5x wetAsphalt-text" aria-hidden="true"></i>
+                <h4 class="pink-text text-lighten-2">الطلاب</h4>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="row">
+        <h4 class=" col l12 right-align ques-intro wetAsphalt-text">
+            ماذا تحوي المنصة<span class="pink-text text-lighten-2">؟</span>
+        </h4>
+        <div class="col l3">
+            <div class="card-panel center-align">
+                <i class="fa fa-android fa-5x wetAsphalt-text" aria-hidden="true"></i>
+                <h4 class="pink-text text-lighten-2">تصميم</h4>
+            </div>
+        </div>
+        <div class="col l3 center-align">
+            <div class="card-panel">
+                <i class="fa fa-btc fa-5x wetAsphalt-text" aria-hidden="true"></i>
+                <h4 class="pink-text text-lighten-2">مونتاج</h4>
+            </div>
+        </div>
+        <div class="col l3 center-align">
+            <div class="card-panel">
+                <i class="fa fa-codepen fa-5x wetAsphalt-text " aria-hidden="true"></i>
+                <h4 class="pink-text text-lighten-2">تعديل</h4>
+            </div>
+        </div>
+        <div class="col l3 center-align">
+            <div class="card-panel">
+                <i class="fa fa-edge fa-5x wetAsphalt-text" aria-hidden="true"></i>
+                <h4 class="pink-text text-lighten-2">رسم</h4>
+            </div>
+        </div>
+
+    </div>
+
 
 <!--Import jQuery before materialize.js-->
     <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
@@ -195,7 +472,55 @@
 
     </script>
 
+    <script>
+        $(function(){
+            $(".love-btn").hover(function() {
+                $(".reaction-box").fadeIn(100, function() {
+                    $(".reaction-icon").each(function(i, e) {
+                        setTimeout(function(){
+                            $(e).addClass("show");
+                        }, i * 100);
+                    });
+                });
+            }, function() {
+                setTimeout(function(){
+                    $(".reaction-box").fadeOut(300, function(){
+                        $(".reaction-icon").removeClass("show")
+                    })
+                }, 500);
+            });
+        })
+    </script>
+    <script>
+        //love reaction function
+        $(document).ready(function(){
+            $(".love").click(function(){
+                $(".love-btn").toggleClass("lovebtn-clicked");
+            });
+        });
+    </script>
+    <script>
 
+        /*$(document).ready(function(){
+            $(".card-panel").click(function(){
+                $(this).hide();
+            });
+        });*/
+
+        function on() {
+            document.getElementById("cardOverlay").style.display = "block";
+
+        }
+
+        function off() {
+            document.getElementById("cardOverlay").style.display = "none";
+        }
+    </script>
+
+
+    <div id="cardOverlay" onclick="off()">
+        <div id="text">Overlay Text</div>
+    </div>
 
 </body>
 </html>
