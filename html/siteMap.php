@@ -29,6 +29,7 @@
                 <a class="waves-effect waves-light btn btn-block wetAsphalt" target="_blank" href="store.php">Store</a>
                 <a class="waves-effect waves-light btn btn-block wetAsphalt" target="_blank" href="terms.php">Terms Page<span class="red-text"> new </span></a>
                 <a class="waves-effect waves-light btn btn-block wetAsphalt" target="_blank" href="contactus.php">Contactus<span class="red-text"> new </span></a>
+                <a class="waves-effect waves-light btn btn-block wetAsphalt" target="_blank" href="404.php">404<span class="red-text"> new </span></a>
 
 
             </div>

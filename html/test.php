@@ -305,8 +305,42 @@
             background-color: rgba(0,0,0,0.5);
             z-index: 2;
             cursor: pointer;
-            transition: 0.3 ;
         }
+
+        .onOverlay {
+            z-index: 10 ;
+            position: relative !important;
+        }
+
+        .popoverCard {
+            position: absolute;
+            max-width: 100%;
+            background-color: #fff;
+            border-radius: 4px;
+            padding: 15px;
+            z-index: 10 !important;
+            top: 14rem;
+        }
+
+        .popoverCard:before {
+            content: "";
+            position: absolute;
+            left: 42%;
+            bottom: 100%;
+            display: block;
+            width: 0;
+            height: 0;
+            border-left: 8px solid transparent;
+            border-right: 8px solid transparent;
+            border-bottom: 12px solid #eee;
+        }
+
+        .popoverCardOff {
+            display: none;
+        }
+
+
+
 
 
     </style>
@@ -383,28 +417,32 @@
         <h4 class=" col l12 right-align ques-intro wetAsphalt-text">
             من يمكنه الاستفادة من المنصة<span class="pink-text text-lighten-2">؟</span>
         </h4>
-        <div class="col l3" onclick="on()">
+        <div class="col l3 center-align">
             <div class="card-panel center-align">
                 <i class="fa fa-apple fa-5x wetAsphalt-text" aria-hidden="true"></i>
-                <h4 class="pink-text text-lighten-2">الطلاب</>
+                <h4 class="pink-text text-lighten-2">الطلاب</h4>
+                <div class="popoverCard popoverCardOff">Cras mattis consectetur purus sit amet fermentum. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum.</div>
             </div>
         </div>
         <div class="col l3 center-align">
             <div class="card-panel">
                 <i class="fa fa-bitbucket fa-5x wetAsphalt-text" aria-hidden="true"></i>
                 <h4 class="pink-text text-lighten-2">الطلاب</h4>
+                <div class="popoverCard popoverCardOff">Cras mattis consectetur purus sit amet fermentum. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum.</div>
             </div>
         </div>
         <div class="col l3 center-align">
             <div class="card-panel">
                 <i class="fa fa-bluetooth fa-5x wetAsphalt-text" aria-hidden="true"></i>
                 <h4 class="pink-text text-lighten-2">الطلاب</h4>
+                <div class="popoverCard popoverCardOff">Cras mattis consectetur purus sit amet fermentum. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum.</div>
             </div>
         </div>
         <div class="col l3 center-align">
             <div class="card-panel">
                 <i class="fa fa-amazon fa-5x wetAsphalt-text" aria-hidden="true"></i>
                 <h4 class="pink-text text-lighten-2">الطلاب</h4>
+                <div class="popoverCard popoverCardOff">Cras mattis consectetur purus sit amet fermentum. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum.</div>
             </div>
         </div>
 
@@ -418,24 +456,31 @@
             <div class="card-panel center-align">
                 <i class="fa fa-android fa-5x wetAsphalt-text" aria-hidden="true"></i>
                 <h4 class="pink-text text-lighten-2">تصميم</h4>
+                <div class="popoverCard popoverCardOff">Cras mattis consectetur purus sit amet fermentum. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum.</div>
             </div>
         </div>
         <div class="col l3 center-align">
             <div class="card-panel">
                 <i class="fa fa-btc fa-5x wetAsphalt-text" aria-hidden="true"></i>
                 <h4 class="pink-text text-lighten-2">مونتاج</h4>
+                <div class="popoverCard popoverCardOff">Cras mattis consectetur purus sit amet fermentum. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum.</div>
+
             </div>
         </div>
         <div class="col l3 center-align">
             <div class="card-panel">
                 <i class="fa fa-codepen fa-5x wetAsphalt-text " aria-hidden="true"></i>
                 <h4 class="pink-text text-lighten-2">تعديل</h4>
+                <div class="popoverCard popoverCardOff">Cras mattis consectetur purus sit amet fermentum. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum.</div>
+
             </div>
         </div>
         <div class="col l3 center-align">
             <div class="card-panel">
                 <i class="fa fa-edge fa-5x wetAsphalt-text" aria-hidden="true"></i>
                 <h4 class="pink-text text-lighten-2">رسم</h4>
+                <div class="popoverCard popoverCardOff">Cras mattis consectetur purus sit amet fermentum. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum.</div>
+
             </div>
         </div>
 
@@ -499,28 +544,33 @@
             });
         });
     </script>
+
     <script>
-
-        /*$(document).ready(function(){
+        //card and overlay effect function
+        $(document).ready(function(){
             $(".card-panel").click(function(){
-                $(this).hide();
+                $("#cardOverlay").fadeToggle();
+                $(this).toggleClass("onOverlay");
+                $(this).find(".popoverCard").toggleClass("popoverCardOff");
+                //$(".popoverCard").toggleClass("popoverCardOff");
             });
-        });*/
+        });
 
-        function on() {
-            document.getElementById("cardOverlay").style.display = "block";
+ /*       $(document).ready(function(){
+            $("#cardOverlay, .card-panel").click(function(){
+                $(this).fadeOut();
+                $(".card-panel").removeClass("onOverlay");
+                $(".popoverCard").addClass("popoverCardOff");
 
-        }
+            });
+        });  */
 
-        function off() {
-            document.getElementById("cardOverlay").style.display = "none";
-        }
+
     </script>
 
+    <!-- overlay and popover -->
+    <div id="cardOverlay"></div>
 
-    <div id="cardOverlay" onclick="off()">
-        <div id="text">Overlay Text</div>
-    </div>
 
 </body>
 </html>
