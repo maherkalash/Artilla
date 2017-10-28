@@ -71,7 +71,7 @@
            </div>
            <div class="col l7 s12">
                <h4 class="wetAsphalt-text err-code">404</h4>
-               <h5>OPS ! Page Not Found , if You think You arrived To This page Please <a href="#">Contact Us</a> . </h5>
+               <p style="font-size: 17px ;">OPS ! Page Not Found , if You think You arrived To This page Please <a href="#">Contact Us</a> . </p>
            </div>
        </div>
    </div>

@@ -56,3 +56,21 @@ $(document).ready(function(){
     // the "href" attribute of the modal trigger must specify the modal ID that wants to be triggered
     $('.modal').modal();
 });
+
+//card and overlay effect function
+$(document).ready(function(){
+    $(".card-panel").click(function(){
+        $("#cardOverlay").fadeToggle();
+        $(this).toggleClass("onOverlay");
+        $(this).find(".popoverCard").toggleClass("popoverCardOff");
+        //$(".popoverCard").toggleClass("popoverCardOff");
+    });
+});
+
+//show replies function
+$(document).ready(function(){
+    $(".replies").click(function(){
+        $(this).find(".replies-dicussion").removeClass("hidden-element");
+    });
+});
+

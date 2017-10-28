@@ -13,6 +13,7 @@
     <link type="text/css" rel="stylesheet" href="css/bootstrap-social.css"/>
     <!--Import Custom Css-->
     <link type="text/css" rel="stylesheet" href="css/custom.css"/>
+
 </head>
 
 <body>
@@ -43,7 +44,7 @@
         <div class="row">
             <!-- Question related -->
             <div class="col l4">
-                <a class="btn btn-block pink lighten-2">اضافة سؤال</a>
+                <a class="btn btn-block pink lighten-2 btn modal-trigger" href="#add_question">اضافة سؤال</a>
                 <input type="text" id="myInput" class="right-align" onkeyup="SearchQAFunc()" placeholder="ابحث عن سؤال ...">
                 <ul class="collection with-header" id="myUL-qs">
                     <li> <a href="#!" class="collection-item right-align"><span id="dots-coll-ques"> هاي </span><span class="left"><i class="material-icons tiny">comment</i>20</span></a></li>
@@ -88,43 +89,49 @@
                                     هذا نص تجريبي لمحاكاة الاجابة التي ستوضع في هذه المنطقة لاعادة تصميم هذه القسم في حال وجود خطا بالتصميم او اذا كان يحوي بعض الاخطاء على الاجهزة المحمولة والخليوية
                                 </p>
                                 <!-- Reply  -->
-                                <div class="row mar-top">
-                                    <div class="col l2 right">
-                                        <img src="http://via.placeholder.com/100x100" class="responsive-img">
-                                    </div>
-                                    <div class="col l10 right">
-                                        <span class="card-title right-align">Maher Kalash <span style="font-size: 15px ;">@username_replyuser</span></span>
-                                        <p class="right-align">
-                                            هذا نص تجريبي لمحاكاة الاجابة التي ستوضع في هذه المنطقة لاعادة تصميم هذه القسم في حال وجود خطا بالتصميم او اذا كان يحوي بعض الاخطاء على الاجهزة المحمولة والخليوية
-                                        </p>
-                                    </div>
-                                </div>
-                                <div class="row mar-top">
-                                    <div class="col l2 right">
-                                        <img src="http://via.placeholder.com/100x100" class="responsive-img">
-                                    </div>
-                                    <div class="col l10 right">
-                                        <span class="card-title right-align">Maher Kalash <span style="font-size: 15px ;">@username_replyuser</span></span>
-                                        <p class="right-align">
-                                            هذا نص تجريبي لمحاكاة الاجابة التي ستوضع في هذه المنطقة لاعادة تصميم هذه القسم في حال وجود خطا بالتصميم او اذا كان يحوي بعض الاخطاء على الاجهزة المحمولة والخليوية
-                                        </p>
-                                    </div>
-                                </div>
-                                <!-- Reply Box -->
-                                <div class="card z-depth-0 " id="reply-box" style="display: none;">
-                                    <div class="card-content wetAsphalt-text">
-                                        <textarea id="textarea1" class="materialize-textarea right-align" placeholder="اترك رد ...."></textarea>
-                                    </div>
-                                    <div class="card-action">
-                                        <a href="#" class="wetAsphalt btn waves-effect waves-light">رد</a>
+                                <div class="replies">
+                                    <a class="show-replies pointer" style="font-size: 1.3rem;"> Show all replies </a>
+
+                                    <div class="replies-dicussion hidden-element">
+                                        <div class="row mar-top">
+                                            <div class="col l2 right">
+                                                <img src="http://via.placeholder.com/100x100" class="responsive-img">
+                                            </div>
+                                            <div class="col l10 right">
+                                                <span class="card-title right-align">Maher Kalash <span style="font-size: 15px ;">@username_replyuser</span></span>
+                                                <p class="right-align">
+                                                    هذا نص تجريبي لمحاكاة الاجابة التي ستوضع في هذه المنطقة لاعادة تصميم هذه القسم في حال وجود خطا بالتصميم او اذا كان يحوي بعض الاخطاء على الاجهزة المحمولة والخليوية
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="row mar-top">
+                                            <div class="col l2 right">
+                                                <img src="http://via.placeholder.com/100x100" class="responsive-img">
+                                            </div>
+                                            <div class="col l10 right">
+                                                <span class="card-title right-align">Maher Kalash <span style="font-size: 15px ;">@username_replyuser</span></span>
+                                                <p class="right-align">
+                                                    هذا نص تجريبي لمحاكاة الاجابة التي ستوضع في هذه المنطقة لاعادة تصميم هذه القسم في حال وجود خطا بالتصميم او اذا كان يحوي بعض الاخطاء على الاجهزة المحمولة والخليوية
+                                                </p>
+                                            </div>
+                                        </div>
+
+                                        <!-- Reply Box -->
+                                        <div class="card z-depth-0" id="reply-box">
+                                            <div class="card-content wetAsphalt-text">
+                                                <textarea id="textarea1" class="materialize-textarea right-align" placeholder="اترك رد ...."></textarea>
+                                            </div>
+                                            <div class="card-action">
+                                                <a href="#" class="wetAsphalt btn waves-effect waves-light">رد</a>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                     <div class="card-action">
-                        <a class="midnightBlue-text pointer" id="reply-button" onclick="document.getElementById('reply-box').style.visibility='visible'">رد</a>
-                        <a href="#" class="right wetAsphalt-text">@username_commenter</a>
+                        <a href="#" class="wetAsphalt-text">@username_commenter</a>
                     </div>
                 </div>
 
@@ -141,37 +148,45 @@
                                     هذا نص تجريبي لمحاكاة الاجابة التي ستوضع في هذه المنطقة لاعادة تصميم هذه القسم في حال وجود خطا بالتصميم او اذا كان يحوي بعض الاخطاء على الاجهزة المحمولة والخليوية
                                 </p>
                                 <!-- Reply  -->
-                                <div class="row mar-top">
-                                    <div class="col l2 right">
-                                        <img src="http://via.placeholder.com/100x100" class="responsive-img">
-                                    </div>
-                                    <div class="col l10 right">
-                                        <span class="card-title right-align">Maher Kalash <span style="font-size: 15px ;">@username_replyuser</span></span>
-                                        <p class="right-align">
-                                            هذا نص تجريبي لمحاكاة الاجابة التي ستوضع في هذه المنطقة لاعادة تصميم هذه القسم في حال وجود خطا بالتصميم او اذا كان يحوي بعض الاخطاء على الاجهزة المحمولة والخليوية
-                                        </p>
+                                <div class="replies">
+                                    <a class="show-replies pointer" style="font-size: 1.3rem;"> Show all replies </a>
+
+                                    <div class="replies-dicussion hidden-element">
+                                        <div class="row mar-top">
+                                            <div class="col l2 right">
+                                                <img src="http://via.placeholder.com/100x100" class="responsive-img">
+                                            </div>
+                                            <div class="col l10 right">
+                                                <span class="card-title right-align">Maher Kalash <span style="font-size: 15px ;">@username_replyuser</span></span>
+                                                <p class="right-align">
+                                                    هذا نص تجريبي لمحاكاة الاجابة التي ستوضع في هذه المنطقة لاعادة تصميم هذه القسم في حال وجود خطا بالتصميم او اذا كان يحوي بعض الاخطاء على الاجهزة المحمولة والخليوية
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="row mar-top">
+                                            <div class="col l2 right">
+                                                <img src="http://via.placeholder.com/100x100" class="responsive-img">
+                                            </div>
+                                            <div class="col l10 right">
+                                                <span class="card-title right-align">Maher Kalash <span style="font-size: 15px ;">@username_replyuser</span></span>
+                                                <p class="right-align">
+                                                    هذا نص تجريبي لمحاكاة الاجابة التي ستوضع في هذه المنطقة لاعادة تصميم هذه القسم في حال وجود خطا بالتصميم او اذا كان يحوي بعض الاخطاء على الاجهزة المحمولة والخليوية
+                                                </p>
+                                            </div>
+                                        </div>
+
+                                        <!-- Reply Box -->
+                                        <div class="card z-depth-0" id="reply-box">
+                                            <div class="card-content wetAsphalt-text">
+                                                <textarea id="textarea1" class="materialize-textarea right-align" placeholder="اترك رد ...."></textarea>
+                                            </div>
+                                            <div class="card-action">
+                                                <a href="#" class="wetAsphalt btn waves-effect waves-light">رد</a>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
-                                <div class="row mar-top">
-                                    <div class="col l2 right">
-                                        <img src="http://via.placeholder.com/100x100" class="responsive-img">
-                                    </div>
-                                    <div class="col l10 right">
-                                        <span class="card-title right-align">Maher Kalash <span style="font-size: 15px ;">@username_replyuser</span></span>
-                                        <p class="right-align">
-                                            هذا نص تجريبي لمحاكاة الاجابة التي ستوضع في هذه المنطقة لاعادة تصميم هذه القسم في حال وجود خطا بالتصميم او اذا كان يحوي بعض الاخطاء على الاجهزة المحمولة والخليوية
-                                        </p>
-                                    </div>
-                                </div>
-                                <!-- Reply Box -->
-                                <div class="card z-depth-0 " id="reply-box" style="display: none;">
-                                    <div class="card-content wetAsphalt-text">
-                                        <textarea id="textarea1" class="materialize-textarea right-align" placeholder="اترك رد ...."></textarea>
-                                    </div>
-                                    <div class="card-action">
-                                        <a href="#" class="wetAsphalt btn waves-effect waves-light">رد</a>
-                                    </div>
-                                </div>
+
                             </div>
                         </div>
                     </div>
@@ -193,6 +208,22 @@
                 </div>
 
             </div>
+    </div>
+
+    <!-- AddQuestion Modal -->
+    <div id="add_question" class="modal modal-fixed-footer no-scroll">
+        <div class="sec-head pink lighten-2">
+            <h4 class="white-text">Add Question - #13343 <!-- question number from all question about course --></h4>
+        </div>
+        <div class="modal-content">
+            <input class="right-align white" type="text" placeholder="العنوان">
+            <input class="right-align white" type="text" placeholder="التصنيفات">
+            <textarea class="right-align materialize-textarea white " type="text" placeholder="السؤال"></textarea>
+        </div>
+        <div class="modal-footer">
+            <a class="waves-effect waves-light btn grey lighten-1 grey-text text-darken-4 modal-action modal-close">الغاء</a>
+            <a class="waves-effect waves-light btn midnightBlue">اضافة سؤال</a>
+        </div>
     </div>
 
     <!--Import jQuery before materialize.js-->

@@ -161,31 +161,38 @@
         </div>
 
         <div class="row">
+            <!-- overlay and popover -->
+            <div id="cardOverlay"></div>
+
             <h4 class=" col l12 right-align ques-intro wetAsphalt-text">
-                 من يمكنه الاستفادة من المنصة<span class="pink-text text-lighten-2">؟</span>
+                من يمكنه الاستفادة من المنصة<span class="pink-text text-lighten-2">؟</span>
             </h4>
-            <div class="col l3">
+            <div class="col l3 center-align">
                 <div class="card-panel center-align">
                     <i class="fa fa-apple fa-5x wetAsphalt-text" aria-hidden="true"></i>
-                    <h4 class="pink-text text-lighten-2">الطلاب</>
+                    <h4 class="pink-text text-lighten-2">الطلاب</h4>
+                    <div class="popoverCard popoverCardOff">Cras mattis consectetur purus sit amet fermentum. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum.</div>
                 </div>
             </div>
             <div class="col l3 center-align">
                 <div class="card-panel">
                     <i class="fa fa-bitbucket fa-5x wetAsphalt-text" aria-hidden="true"></i>
                     <h4 class="pink-text text-lighten-2">الطلاب</h4>
+                    <div class="popoverCard popoverCardOff">Cras mattis consectetur purus sit amet fermentum. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum.</div>
                 </div>
             </div>
             <div class="col l3 center-align">
                 <div class="card-panel">
                     <i class="fa fa-bluetooth fa-5x wetAsphalt-text" aria-hidden="true"></i>
                     <h4 class="pink-text text-lighten-2">الطلاب</h4>
+                    <div class="popoverCard popoverCardOff">Cras mattis consectetur purus sit amet fermentum. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum.</div>
                 </div>
             </div>
             <div class="col l3 center-align">
                 <div class="card-panel">
                     <i class="fa fa-amazon fa-5x wetAsphalt-text" aria-hidden="true"></i>
                     <h4 class="pink-text text-lighten-2">الطلاب</h4>
+                    <div class="popoverCard popoverCardOff">Cras mattis consectetur purus sit amet fermentum. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum.</div>
                 </div>
             </div>
 
@@ -199,35 +206,43 @@
                 <div class="card-panel center-align">
                     <i class="fa fa-android fa-5x wetAsphalt-text" aria-hidden="true"></i>
                     <h4 class="pink-text text-lighten-2">تصميم</h4>
+                    <div class="popoverCard popoverCardOff">Cras mattis consectetur purus sit amet fermentum. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum.</div>
                 </div>
             </div>
             <div class="col l3 center-align">
                 <div class="card-panel">
                     <i class="fa fa-btc fa-5x wetAsphalt-text" aria-hidden="true"></i>
                     <h4 class="pink-text text-lighten-2">مونتاج</h4>
+                    <div class="popoverCard popoverCardOff">Cras mattis consectetur purus sit amet fermentum. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum.</div>
+
                 </div>
             </div>
             <div class="col l3 center-align">
                 <div class="card-panel">
                     <i class="fa fa-codepen fa-5x wetAsphalt-text " aria-hidden="true"></i>
                     <h4 class="pink-text text-lighten-2">تعديل</h4>
+                    <div class="popoverCard popoverCardOff">Cras mattis consectetur purus sit amet fermentum. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum.</div>
+
                 </div>
             </div>
             <div class="col l3 center-align">
                 <div class="card-panel">
                     <i class="fa fa-edge fa-5x wetAsphalt-text" aria-hidden="true"></i>
                     <h4 class="pink-text text-lighten-2">رسم</h4>
+                    <div class="popoverCard popoverCardOff">Cras mattis consectetur purus sit amet fermentum. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum.</div>
+
                 </div>
             </div>
 
         </div>
-
     </div>
 
     <div class="col l12">
         <div class="card-panel">
             <div class="container">
-                <h5 class="center-align wetAsphalt-text">أشترك الان للحصول على نشرتنا الاسبوعية للمواد القلمية في الفنون البصرية , عروضنا ومنتجاتنا أكثر من ذلك بكثير</h5>
+                <h5 class="right-align wetAsphalt-text">أشترك الان للحصول على نشرتنا الاسبوعية للمواد القلمية في الفنون البصرية </h5>
+                <h5 class="right-align wetAsphalt-text"> عروضنا ومنتجاتنا أكثر من ذلك بكثير</h5>
+
                 <div class="row">
 
                     <div class="row">

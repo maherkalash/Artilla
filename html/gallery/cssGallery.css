@@ -30,9 +30,10 @@
 
 /* Image Hover Effect  */
 
-.container {
-    position: relative;
+.container-image {
+    position: relative !important;
     width: 100%;
+    z-index: 10;
 }
 
 .overlay {
@@ -49,7 +50,7 @@
     border-radius: 5px ;
 }
 
-.container:hover .overlay {
+.container-image:hover .overlay {
     opacity: 1;
 }
 

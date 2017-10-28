@@ -61,7 +61,7 @@
     <!-- make evrey item col l3 s12 -->
     <div class="col-sm-3 layg">
 
-        <div class="container no-pad-sides design filter art">
+        <div class="container-image no-pad-sides design filter art">
             <img src="gallery/gallery-imgs/gallery/2.jpg" class="image">
             <div class="overlay" onclick="openModal()">
                 <div class="top-left text-white">
@@ -84,7 +84,7 @@
             </div>
         </div>
 
-        <div class="container no-pad-sides filter vfx">
+        <div class="container-image no-pad-sides filter vfx">
             <img src="gallery/gallery-imgs/gallery/3.jpg" class="image">
             <div class="centered">
                 <i class="fa fa-play-circle-o fa-4x white-text" aria-hidden="true"></i>
@@ -120,7 +120,7 @@
 
     <div class="col-sm-3 layg">
 
-        <div class="container no-pad-sides design filter art">
+        <div class="container-image no-pad-sides design filter art">
             <img src="gallery/gallery-imgs/gallery/4.jpg" class="image">
             <div class="overlay" onclick="openModal()">
                 <div class="top-left text-white">
@@ -143,7 +143,7 @@
             </div>
         </div>
 
-        <div class="container no-pad-sides filter vfx">
+        <div class="container-image no-pad-sides filter vfx">
             <img src="gallery/gallery-imgs/gallery/5.jpg" class="image">
             <div class="centered">
                 <i class="fa fa-play-circle-o fa-4x white-text" aria-hidden="true"></i>
@@ -176,7 +176,7 @@
 
     <div class="col-sm-3 layg">
 
-        <div class="container no-pad-sides design filter art">
+        <div class="container-image no-pad-sides design filter art">
             <img src="gallery/gallery-imgs/gallery/6.jpg" class="image">
             <div class="overlay" onclick="openModal()">
                 <div class="top-left text-white">
@@ -199,7 +199,7 @@
             </div>
         </div>
 
-        <div class="container no-pad-sides filter vfx">
+        <div class="container-image no-pad-sides filter vfx">
             <img src="gallery/gallery-imgs/gallery/7.jpg" class="image">
             <div class="centered">
                 <i class="fa fa-play-circle-o fa-4x white-text" aria-hidden="true"></i>
@@ -232,7 +232,7 @@
 
     <div class="col-sm-3 layg">
 
-        <div class="container no-pad-sides design filter art">
+        <div class="container-image no-pad-sides design filter art">
             <img src="gallery/gallery-imgs/gallery/8.jpg" class="image">
             <div class="overlay" onclick="openModal()">
                 <div class="top-left text-white">
@@ -255,7 +255,7 @@
             </div>
         </div>
 
-        <div class="container no-pad-sides filter vfx">
+        <div class="container-image no-pad-sides filter vfx">
             <img src="gallery/gallery-imgs/gallery/9.jpg" class="image">
             <div class="centered">
                 <i class="fa fa-play-circle-o fa-4x white-text" aria-hidden="true"></i>
