@@ -117,7 +117,7 @@ Excielnt marks , 10/10
                            <input id="last_name" type="text" class="validate">
                            <label for="last_name">Project Code</label>
                        </div>
-                       <form action="#">
+                       <form action="#" class="col s12">
                            <div class="file-field input-field">
                                <div class="btn">
                                    <span>Upload</span>
