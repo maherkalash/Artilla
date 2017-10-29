@@ -23,26 +23,6 @@
 
 <body>
 
-    <nav class="transparent z-depth-0">
-        <div class="nav-wrapper container">
-            <a href="/" class="brand-logo wetAsphalt-text" style="z-index: 100">Artilla</a>
-            <ul id="nav-mobile" class="right hide-on-med-and-down">
-                <li><a class="waves-effect waves-light btn account-btn" href="login_register.php">تسجيل الدخول</a></li>
-                <li><a class="waves-effect waves-light btn account-btn" href="login_register.php">انشاء حساب</a></li>
-            </ul>
-        </div>
-    </nav>
-
-   <!--- <div class="main-screen">
-        <ul class="slideshow">
-            <li class="image active"> <h1 class="slider-text centered">...Scroll Down To Reveal Content</h1></li>
-            <li class="image"><h1 class="slider-text bottom-right">...Scroll Down To Reveal Content</h1></li>
-            <li class="image"><h1 class="slider-text bottom-left">...Scroll Down To Reveal Content</h1></li>
-            <li class="image"><h1 class="slider-text centered">...Scroll Down To Reveal Content</h1></li>
-            <li class="image"><h1 class="slider-text bottom-left">...Scroll Down To Reveal Content</h1></li>
-        </ul>
-    </div> -->
-
     <!-- Mega Menu -->
     <div class="megaMenuAr z-depth-1">
         <div class="container">
@@ -80,172 +60,85 @@
         </div>
     </div>
 
-    <div class="slider z-depth-1">
-        <ul class="slides">
-            <li>
-                <img src="https://lorempixel.com/580/250/nature/1"> <!-- random image -->
-                <div class="caption center-align">
-                    <h3>This is our big Tagline!</h3>
-                    <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
-                </div>
-            </li>
-            <li>
-                <img src="https://lorempixel.com/580/250/nature/2"> <!-- random image -->
-                <div class="caption left-align">
-                    <h3>Left Aligned Caption</h3>
-                    <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
-                </div>
-            </li>
-            <li>
-                <img src="https://lorempixel.com/580/250/nature/3"> <!-- random image -->
-                <div class="caption right-align">
-                    <h3>Right Aligned Caption</h3>
-                    <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
-                </div>
-            </li>
-            <li>
-                <img src="https://lorempixel.com/580/250/nature/4"> <!-- random image -->
-                <div class="caption center-align">
-                    <h3>This is our big Tagline!</h3>
-                    <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
-                </div>
-            </li>
-        </ul>
-    </div>
+   <div class="container">
+       <div class="row">
+           <div class="col l8">
+               <h4> certifications: </h4>
+               <div class="container-fluid">
+                   <div class="card horizontal">
+                       <div class="card-image">
+                           <img src="users_files/certifications/certificate_preview/Certificate1.png" alt="" class="responsive-img"/>
+                       </div>
+                       <div class="card-stacked">
+                           <div class="card-content">
+                               <span class="card-title wetAsphalt-text">Art & Design Certificate</span>
+                               <p class="grey-text">
+Excielnt marks , 10/10
+                               </p>
+                           </div>
+                           <div class="card-action ">
+                               <a class="btn-flat grey-text right " href="users_files/certifications/Certificate1.pdf"><i class="material-icons">file_download</i></a>
+                           </div>
+                       </div>
+                   </div>
+               </div>
+
+               <div class="container-fluid">
+                   <div class="card horizontal">
+                       <div class="card-image">
+                           <img src="users_files/certifications/certificate_preview/Certificate2.png" alt="" class="responsive-img"/>
+                       </div>
+                       <div class="card-stacked">
+                           <div class="card-content">
+                               <span class="card-title wetAsphalt-text">VFX Certificate</span>
+                               <p class="grey-text">
+                                   Excielnt marks , 10/10
+                               </p>
+                           </div>
+                           <div class="card-action">
+                               <a class="btn-flat grey-text right " href="users_files/certifications/Certificate2.pdf"><i class="material-icons">file_download</i></a>
+                           </div>
+                       </div>
+                   </div>
+               </div>
 
 
-    <div class="container">
+           </div>
+           <div class="col l4">
+               <h4>Projects :</h4>
 
-        <div class="row mar-top ">
-            <div class="col l6 container-text">
-                <a href="section_courses.php">
-                    <img class="responsive-img brightness radius-img z-depth-1" src="imgs/design.jpg" style="height: 18.5rem;">
-                </a>
-                <div class="centered" style="font-size: 5rem">Design</div>
-            </div>
+               <div class="card small">
+                   <div class="card-content">
+                       <div class="input-field col s6">
+                           <input id="last_name" type="text" class="validate">
+                           <label for="last_name">Project Name</label>
+                       </div>
+                       <div class="input-field col s6">
+                           <input id="last_name" type="text" class="validate">
+                           <label for="last_name">Project Code</label>
+                       </div>
+                       <form action="#">
+                           <div class="file-field input-field">
+                               <div class="btn">
+                                   <span>Upload</span>
+                                   <input type="file">
+                               </div>
+                               <div class="file-path-wrapper">
+                                   <input class="file-path validate" type="text">
+                               </div>
+                           </div>
+                       </form>
 
-            <div class="col l3 container-text">
-                <a href="course.php">
-                    <img class="responsive-img introThumbnail brightness radius-img z-depth-1" src="imgs/photography.jpg">
-                </a>
-                <div class="centered introThumbnail-text">Photography</div>
-            </div>
+                       <p>Or</p>
+                       <div class="input-field col s12">
+                           <input id="last_name" type="text" class="validate" placeholder="share.artilla/mVnnj54D">
+                           <label for="last_name">Project URL</label>
+                       </div>
 
-            <div class="col l3 container-text">
-                <a href="section_courses.php">
-                    <img class="responsive-img introThumbnail brightness radius-img z-depth-1" src="imgs/editing.png">
-                </a>
-                <div class="centered introThumbnail-text">Editing</div>
-            </div>
-
-            <div class="col l3 container-text">
-                <a href="section_courses.php">
-                    <img class="responsive-img introThumbnail brightness radius-img z-depth-1" src="imgs/drawing.jpg">
-                </a>
-                <div class="centered introThumbnail-text">Drawing</div>
-            </div>
-            <div class="col l3 container-text">
-                <a href="section_courses.php">
-                    <img class="responsive-img introThumbnail brightness radius-img z-depth-1" src="imgs/vfx.jpg">
-                </a>
-                <div class="centered introThumbnail-text">VFX</div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col l2">
-                <a class="waves-effect waves-light btn pink lighten-2 btn-large" style="margin-top: 8px;">انشاء حساب</a>
-            </div>
-            <div class="card-panel wetAsphalt col l10" style="height: 54px;">
-                <h5 class="white-text right-align"> انضم الان وأبدأ التعلم حالاََ </h5>
-            </div>
-        </div>
-
-        <div class="row">
-            <h4 class=" col l12 right-align ques-intro wetAsphalt-text">
-                 من يمكنه الاستفادة من المنصة<span class="pink-text text-lighten-2">؟</span>
-            </h4>
-            <div class="col l3">
-                <div class="card-panel center-align">
-                    <i class="fa fa-apple fa-5x wetAsphalt-text" aria-hidden="true"></i>
-                    <h4 class="pink-text text-lighten-2">الطلاب</>
-                </div>
-            </div>
-            <div class="col l3 center-align">
-                <div class="card-panel">
-                    <i class="fa fa-bitbucket fa-5x wetAsphalt-text" aria-hidden="true"></i>
-                    <h4 class="pink-text text-lighten-2">الطلاب</h4>
-                </div>
-            </div>
-            <div class="col l3 center-align">
-                <div class="card-panel">
-                    <i class="fa fa-bluetooth fa-5x wetAsphalt-text" aria-hidden="true"></i>
-                    <h4 class="pink-text text-lighten-2">الطلاب</h4>
-                </div>
-            </div>
-            <div class="col l3 center-align">
-                <div class="card-panel">
-                    <i class="fa fa-amazon fa-5x wetAsphalt-text" aria-hidden="true"></i>
-                    <h4 class="pink-text text-lighten-2">الطلاب</h4>
-                </div>
-            </div>
-
-        </div>
-
-        <div class="row">
-            <h4 class=" col l12 right-align ques-intro wetAsphalt-text">
-                ماذا تحوي المنصة<span class="pink-text text-lighten-2">؟</span>
-            </h4>
-            <div class="col l3">
-                <div class="card-panel center-align">
-                    <i class="fa fa-android fa-5x wetAsphalt-text" aria-hidden="true"></i>
-                    <h4 class="pink-text text-lighten-2">تصميم</h4>
-                </div>
-            </div>
-            <div class="col l3 center-align">
-                <div class="card-panel">
-                    <i class="fa fa-btc fa-5x wetAsphalt-text" aria-hidden="true"></i>
-                    <h4 class="pink-text text-lighten-2">مونتاج</h4>
-                </div>
-            </div>
-            <div class="col l3 center-align">
-                <div class="card-panel">
-                    <i class="fa fa-codepen fa-5x wetAsphalt-text " aria-hidden="true"></i>
-                    <h4 class="pink-text text-lighten-2">تعديل</h4>
-                </div>
-            </div>
-            <div class="col l3 center-align">
-                <div class="card-panel">
-                    <i class="fa fa-edge fa-5x wetAsphalt-text" aria-hidden="true"></i>
-                    <h4 class="pink-text text-lighten-2">رسم</h4>
-                </div>
-            </div>
-
-        </div>
-
-    </div>
-
-    <div class="col l12">
-        <div class="card-panel">
-            <div class="container">
-                <h5 class="center-align wetAsphalt-text">أشترك الان للحصول على نشرتنا الاسبوعية للمواد القلمية في الفنون البصرية , عروضنا ومنتجاتنا أكثر من ذلك بكثير</h5>
-                <div class="row">
-
-                    <div class="row">
-                        <div class="input-field col s6">
-                            <input  type="text" placeholder="Name">
-                        </div>
-                        <div class="input-field col s6">
-                            <input  type="tel" class="validate" placeholder="Email">
-                        </div>
-                    </div>
-                    <div class="col l12">
-                        <a class="waves-effect waves-light btn pink lighten-2 btn-large right" style="margin-top: 8px;">اشتراك  </a>
-                    </div>
-
-                </div>
-            </div>
-
-        </div>
+                   </div>
+               </div>
+           </div>
+       </div>
     </div>
 
     <footer class="page-footer wetAsphalt">
