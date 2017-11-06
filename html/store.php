@@ -43,14 +43,14 @@
     <div class="container">
         <div class="col l12 center mar-top">
             <!-- Control buttons -->
-            <a class="btn green" onclick="filterSelection('rating')" name="category"><i class="fa fa-money" aria-hidden="true"></i></a>
-            <a class="btn lighten-3 pink white-text" onclick="filterSelection('newest')" name="category">جديد</a>
-            <a class="btn lighten-2 pink white-text" onclick="filterSelection('')" name="category"> اضافات</a>
-            <a class="btn lighten-2 pink white-text" onclick="filterSelection('')" name="category"> لوازم فنية</a>
-            <a class="btn lighten-2 pink white-text" onclick="filterSelection('')" name="category"> هدايا وتصاميم</a>
-            <a class="btn lighten-2 pink white-text" onclick="filterSelection('')" name="category"> لوحات فنية</a>
-            <a class="btn lighten-2 pink white-text" onclick="filterSelection('')" name="category">أعمال فنية</a>
-            <a class="btn wetAsphalt white-text" onclick="filterSelection('all')" name="category" checked> الكل </a>
+            <a class="btn green mar-top" onclick="filterSelection('rating')" name="category"><i class="fa fa-money" aria-hidden="true"></i></a>
+            <a class="btn lighten-3 pink white-text mar-top" onclick="filterSelection('newest')" name="category">جديد</a>
+            <a class="btn lighten-2 pink white-text mar-top" onclick="filterSelection('')" name="category"> اضافات</a>
+            <a class="btn lighten-2 pink white-text mar-top" onclick="filterSelection('')" name="category"> لوازم فنية</a>
+            <a class="btn lighten-2 pink white-text mar-top" onclick="filterSelection('')" name="category"> هدايا وتصاميم</a>
+            <a class="btn lighten-2 pink white-text mar-top" onclick="filterSelection('')" name="category"> لوحات فنية</a>
+            <a class="btn lighten-2 pink white-text mar-top" onclick="filterSelection('')" name="category">أعمال فنية</a>
+            <a class="btn wetAsphalt white-text mar-top" onclick="filterSelection('all')" name="category" checked> الكل </a>
         </div>
 
         <div class="row">

@@ -19,7 +19,7 @@
 
     <div class="container">
         <div class="row">
-            <div class="col l4">
+            <div class="col l4 s12">
                 <h4 class="right-align">ارسل لنا رسالة:</h4>
                 <div class="card white">
                     <div class="card-content">
@@ -52,7 +52,17 @@
                     </div>
                 </div>
             </div>
-            <div class="col l8">
+            <div class="col s12 hide-on-large-only">
+                <h4 class="right-align">اتصل بنا:</h4>
+                <p class="right-align">Damascus - +963 999999012</p>
+                <p class="right-align">latakia - +963 999999013</p>
+                <p class="right-align">aleppo - +963 999999014</p>
+            </div>
+            <div class="col s12 hide-on-large-only">
+                <h4 class="right-align">موقعنا :</h4>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d106456.52297209836!2d36.21285530973541!3d33.50745579458413!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1518e6dc413cc6a7%3A0x6b9f66ebd1e394f2!2sDamascus%2C+Syria!5e0!3m2!1sen!2s!4v1509039340006" frameborder="0" style="border:0" allowfullscreen></iframe>
+            </div>
+            <div class="col l8 hide-on-med-and-down">
                 <h4 class="right-align">موقعنا :</h4>
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d106456.52297209836!2d36.21285530973541!3d33.50745579458413!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1518e6dc413cc6a7%3A0x6b9f66ebd1e394f2!2sDamascus%2C+Syria!5e0!3m2!1sen!2s!4v1509039340006" width="700" height="400" frameborder="0" style="border:0" allowfullscreen></iframe>
                 <div class="divider"></div>

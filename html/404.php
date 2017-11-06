@@ -24,12 +24,17 @@
             font-size: 16rem;
             color : #2c3e50;
         }
+        .err-code-mob {
+            font-size: 10rem;
+            color : #2c3e50;
+        }
     </style>
 </head>
 
 
 <body class="white">
-<div class="megaMenuAr z-depth-1">
+
+<div class="megaMenuAr z-depth-1 hide-on-med-and-down">
     <div class="container">
         <div class="megaMenuAr-dropdown right ">
             <button class="dropbtn">الدورات
@@ -64,13 +69,34 @@
         <a href="#news" class="right">وظائف</a>
     </div>
 </div>
+<!-- Mobile navbar -->
+<!-- Dropdown Structure -->
+<ul id="dropdown1" class="dropdown-content midnightBlue">
+    <li><a class="white-text" href="#!">رسم</a></li>
+    <li><a class="white-text" href="#!">تصوير فوتوغرافي</a></li>
+    <li><a class="white-text" href="#!">تحرير فيديو</a></li>
+</ul>
+<nav class="hide-on-large-only">
+    <div class="nav-wrapper white">
+        <a href="#!" class="brand-logo wetAsphalt-text">Artilla</a>
+        <a href="#" data-activates="mobile-demo" class="button-collapse wetAsphalt-text"><i class="material-icons">menu</i></a>
+        <ul class="side-nav wetAsphalt" id="mobile-demo">
+            <li><a class="dropdown-button white-text" href="#!" data-activates="dropdown1"><i class="material-icons white-text right">arrow_drop_down</i>الدورات</a></li>
+            <li><a class="white-text" href="#">محتوى بصري</a></li>
+            <li><a class="white-text" href="#">المتجر</a></li>
+            <li><a class="white-text" href="#">اعمال المتدربين</a></li>
+            <li><a class="white-text" href="#">وظائف</a></li>
+        </ul>
+    </div>
+</nav>
    <div class="container">
        <div class="row mar-top">
            <div class="col l5 s12">
                <img src="imgs/404img.jpg" class="responsive-img">
            </div>
            <div class="col l7 s12">
-               <h4 class="wetAsphalt-text err-code">404</h4>
+               <h4 class="wetAsphalt-text err-code hide-on-med-and-down">404</h4>
+               <h4 class="wetAsphalt-text err-code-mob hide-on-large-only">404</h4>
                <p style="font-size: 17px ;">OPS ! Page Not Found , if You think You arrived To This page Please <a href="#">Contact Us</a> . </p>
            </div>
        </div>
@@ -79,7 +105,7 @@
 <footer class="page-footer wetAsphalt">
     <div class="container ">
         <div class="row">
-            <div class="col l6 s12">
+            <div class="col l6 s6">
                 <a class="btn btn-social-icon btn-facebook btn-socialMedia">
                     <span class="fa fa-facebook"></span>
                 </a>
@@ -93,11 +119,17 @@
                     <span class="fa fa-linkedin"></span>
                 </a>
             </div>
-            <div class="col l6 right-align">
+            <div class="col l6 s6 right-align hide-on-small-only">
                 <a class="waves-effect waves-teal btn-flat footer-linkss">أسئلة شائعة</a>
                 <a class="waves-effect waves-teal btn-flat footer-linkss">اتصل بنا</a>
                 <a class="waves-effect waves-teal btn-flat footer-linkss">رسالتنا</a>
                 <a class="waves-effect waves-teal btn-flat footer-linkss">حول ارتيلا</a>
+            </div>
+            <div class="col l6 s6 right-align hide-on-med-and-up">
+                <a class="waves-effect waves-teal btn-flat footer-linkss btn-block">أسئلة شائعة</a>
+                <a class="waves-effect waves-teal btn-flat footer-linkss btn-block">اتصل بنا</a>
+                <a class="waves-effect waves-teal btn-flat footer-linkss btn-block">رسالتنا</a>
+                <a class="waves-effect waves-teal btn-flat footer-linkss btn-block">حول ارتيلا</a>
             </div>
         </div>
     </div>

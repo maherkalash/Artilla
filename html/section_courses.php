@@ -46,7 +46,7 @@
         </div>
     </nav>
 
-    <div class="container">
+    <div class="container hide-on-med-and-down">
 
         <div class="container-fluid">
             <div class="card horizontal">
@@ -151,7 +151,155 @@
 
     </div>
 
+    <div class="container hide-on-large-only">
+        <div class="row">
+            <div class="col s12">
+                <div class="card">
+                    <div class="card-image">
+                        <img src="http://via.placeholder.com/400x250">
+                        <span class="card-title">Course Name</span>
+                    </div>
+                    <div class="card-content">
+                        <p class="grey-text">
+                            Lorem ipsum dolor sit amet, te velit appareat his, te ius omnis iudicabit rationibus. Solet minimum omittantur eos te, quod mutat sea ut, qui ut fabellas mediocrem persequeris. Eius fabulas vocibus in vix. Vis ei quas referrentur.
+                        </p>
+                    </div>
+                    <div class="card-action">
+                        <a class="btn-flat midnightBlue-text " href="#">التسجيل في الدورة</a>
+                        <a class="btn-flat grey-text" href="#">اسم المحاضر</a>
+                    </div>
+                </div>
+            </div>
 
+            <div class="col s12">
+                <div class="card">
+                    <div class="card-image">
+                        <img src="http://via.placeholder.com/400x250">
+                        <span class="card-title">Course Name</span>
+                    </div>
+                    <div class="card-content">
+                        <p class="grey-text">
+                            Lorem ipsum dolor sit amet, te velit appareat his, te ius omnis iudicabit rationibus. Solet minimum omittantur eos te, quod mutat sea ut, qui ut fabellas mediocrem persequeris. Eius fabulas vocibus in vix. Vis ei quas referrentur.
+                        </p>
+                    </div>
+                    <div class="card-action">
+                        <a class="btn-flat midnightBlue-text " href="#">التسجيل في الدورة</a>
+                        <a class="btn-flat grey-text" href="#">اسم المحاضر</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col s12">
+                <div class="card">
+                    <div class="card-image">
+                        <img src="http://via.placeholder.com/400x250">
+                        <span class="card-title">Course Name</span>
+                    </div>
+                    <div class="card-content">
+                        <p class="grey-text">
+                            Lorem ipsum dolor sit amet, te velit appareat his, te ius omnis iudicabit rationibus. Solet minimum omittantur eos te, quod mutat sea ut, qui ut fabellas mediocrem persequeris. Eius fabulas vocibus in vix. Vis ei quas referrentur.
+                        </p>
+                    </div>
+                    <div class="card-action">
+                        <a class="btn-flat midnightBlue-text " href="#">التسجيل في الدورة</a>
+                        <a class="btn-flat grey-text" href="#">اسم المحاضر</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col s12">
+                <div class="card">
+                    <div class="card-image">
+                        <img src="http://via.placeholder.com/400x250">
+                        <span class="card-title">Course Name</span>
+                    </div>
+                    <div class="card-content">
+                        <p class="grey-text">
+                            Lorem ipsum dolor sit amet, te velit appareat his, te ius omnis iudicabit rationibus. Solet minimum omittantur eos te, quod mutat sea ut, qui ut fabellas mediocrem persequeris. Eius fabulas vocibus in vix. Vis ei quas referrentur.
+                        </p>
+                    </div>
+                    <div class="card-action">
+                        <a class="btn-flat midnightBlue-text " href="#">التسجيل في الدورة</a>
+                        <a class="btn-flat grey-text" href="#">اسم المحاضر</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col s12">
+                <div class="card">
+                    <div class="card-image">
+                        <img src="http://via.placeholder.com/400x250">
+                        <span class="card-title">Course Name</span>
+                    </div>
+                    <div class="card-content">
+                        <p class="grey-text">
+                            Lorem ipsum dolor sit amet, te velit appareat his, te ius omnis iudicabit rationibus. Solet minimum omittantur eos te, quod mutat sea ut, qui ut fabellas mediocrem persequeris. Eius fabulas vocibus in vix. Vis ei quas referrentur.
+                        </p>
+                    </div>
+                    <div class="card-action">
+                        <a class="btn-flat midnightBlue-text " href="#">التسجيل في الدورة</a>
+                        <a class="btn-flat grey-text" href="#">اسم المحاضر</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col s12">
+                <div class="card">
+                    <div class="card-image">
+                        <img src="http://via.placeholder.com/400x250">
+                        <span class="card-title">Course Name</span>
+                    </div>
+                    <div class="card-content">
+                        <p class="grey-text">
+                            Lorem ipsum dolor sit amet, te velit appareat his, te ius omnis iudicabit rationibus. Solet minimum omittantur eos te, quod mutat sea ut, qui ut fabellas mediocrem persequeris. Eius fabulas vocibus in vix. Vis ei quas referrentur.
+                        </p>
+                    </div>
+                    <div class="card-action">
+                        <a class="btn-flat midnightBlue-text " href="#">التسجيل في الدورة</a>
+                        <a class="btn-flat grey-text" href="#">اسم المحاضر</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col s12">
+                <div class="card">
+                    <div class="card-image">
+                        <img src="http://via.placeholder.com/400x250">
+                        <span class="card-title">Course Name</span>
+                    </div>
+                    <div class="card-content">
+                        <p class="grey-text">
+                            Lorem ipsum dolor sit amet, te velit appareat his, te ius omnis iudicabit rationibus. Solet minimum omittantur eos te, quod mutat sea ut, qui ut fabellas mediocrem persequeris. Eius fabulas vocibus in vix. Vis ei quas referrentur.
+                        </p>
+                    </div>
+                    <div class="card-action">
+                        <a class="btn-flat midnightBlue-text " href="#">التسجيل في الدورة</a>
+                        <a class="btn-flat grey-text" href="#">اسم المحاضر</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col s12">
+                <div class="card">
+                    <div class="card-image">
+                        <img src="http://via.placeholder.com/400x250">
+                        <span class="card-title">Course Name</span>
+                    </div>
+                    <div class="card-content">
+                        <p class="grey-text">
+                            Lorem ipsum dolor sit amet, te velit appareat his, te ius omnis iudicabit rationibus. Solet minimum omittantur eos te, quod mutat sea ut, qui ut fabellas mediocrem persequeris. Eius fabulas vocibus in vix. Vis ei quas referrentur.
+                        </p>
+                    </div>
+                    <div class="card-action">
+                        <a class="btn-flat midnightBlue-text " href="#">التسجيل في الدورة</a>
+                        <a class="btn-flat grey-text" href="#">اسم المحاضر</a>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
 
     <!--Import jQuery before materialize.js-->
     <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>

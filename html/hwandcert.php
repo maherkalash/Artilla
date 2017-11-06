@@ -23,45 +23,115 @@
 
 <body>
 
-    <!-- Mega Menu -->
-    <div class="megaMenuAr z-depth-1">
-        <div class="container">
-            <div class="megaMenuAr-dropdown right ">
-                <button class="dropbtn">الدورات
-                    <i class="fa fa-caret-down"></i>
-                </button>
-                <div class="megaMenuAr-dropdown-content">
-                    <div id="art" class="megaMenuAr-tabcontent">
-                        <h3>Hello , world</h3>
-                        <p>هذا النص تجربة من اجل معرفة المشاكل المتعلقة باللغة العرية .</p>
-                    </div>
-
-                    <div id="photography" class="megaMenuAr-tabcontent">
-                        <h3>Hello , world</h3>
-                        <p>هذا نص اخر</p>
-                    </div>
-
-                    <div id="video" class="megaMenuAr-tabcontent">
-                        <h3>Hello , world</h3>
-                        <p>وهذا ايضا نص مختلف عن النصوص السابقة</p>
-                    </div>
-
-                    <div class="megaMenuAr-tab">
-                        <button class="megaMenu-tablinks" onclick="openCourse(event, 'art')" id="defaultOpen">رسم</button>
-                        <button class="megaMenu-tablinks" onclick="openCourse(event, 'photography')">تصوير فوتوغرافي</button>
-                        <button class="megaMenu-tablinks" onclick="openCourse(event, 'video')">تحرير فيديو</button>
-                    </div>
-                </div>
-            </div>
-            <a href="gallery.php" class="right">محتوى بصري</a>
-            <a href="store.php" class="right">متجر</a>
-            <a href="gallery.php" class="right">اعمال متدربين</a>
-            <a href="#news" class="right">وظائف</a>
-        </div>
-    </div>
-
    <div class="container">
-       <div class="row">
+
+       <div class="row hide-on-large-only">
+           <div class="col s12 m6">
+               <div class="card">
+                   <div class="card-image">
+                       <img src="users_files/certifications/certificate_preview/Certificate1.png" alt="" class="responsive-img"/>
+                   </div>
+                   <div class="card-content">
+                       <span class="card-title wetAsphalt-text">Art & Design Certificate</span>
+                       <p class="grey-text">
+                           Excielnt marks , 10/10
+                       </p>
+                   </div>
+                   <div class="card-action ">
+                       <a class="btn-flat grey-text" href="users_files/certifications/Certificate1.pdf"><i class="material-icons">file_download</i></a>
+                   </div>
+               </div>
+           </div>
+
+           <div class="col s12 m6">
+               <div class="card">
+                   <div class="card-image">
+                       <img src="users_files/certifications/certificate_preview/Certificate1.png" alt="" class="responsive-img"/>
+                   </div>
+                   <div class="card-content">
+                       <span class="card-title wetAsphalt-text">Art & Design Certificate</span>
+                       <p class="grey-text">
+                           Excielnt marks , 10/10
+                       </p>
+                   </div>
+                   <div class="card-action ">
+                       <a class="btn-flat grey-text" href="users_files/certifications/Certificate1.pdf"><i class="material-icons">file_download</i></a>
+                   </div>
+               </div>
+           </div>
+
+           <div class="col s12 m6">
+               <div class="card">
+                   <div class="card-image">
+                       <img src="users_files/certifications/certificate_preview/Certificate1.png" alt="" class="responsive-img"/>
+                   </div>
+                   <div class="card-content">
+                       <span class="card-title wetAsphalt-text">Art & Design Certificate</span>
+                       <p class="grey-text">
+                           Excielnt marks , 10/10
+                       </p>
+                   </div>
+                   <div class="card-action ">
+                       <a class="btn-flat grey-text" href="users_files/certifications/Certificate1.pdf"><i class="material-icons">file_download</i></a>
+                   </div>
+               </div>
+           </div>
+
+           <div class="col s12 m6">
+               <div class="card">
+                   <div class="card-image">
+                       <img src="users_files/certifications/certificate_preview/Certificate1.png" alt="" class="responsive-img"/>
+                   </div>
+                   <div class="card-content">
+                       <span class="card-title wetAsphalt-text">Art & Design Certificate</span>
+                       <p class="grey-text">
+                           Excielnt marks , 10/10
+                       </p>
+                   </div>
+                   <div class="card-action ">
+                       <a class="btn-flat grey-text" href="users_files/certifications/Certificate1.pdf"><i class="material-icons">file_download</i></a>
+                   </div>
+               </div>
+           </div>
+
+           <div class="col l4">
+               <h4>Projects :</h4>
+
+               <div class="card medium">
+                   <div class="card-content">
+                       <div class="input-field col s6">
+                           <input id="last_name" type="text" class="validate">
+                           <label for="last_name">Project Name</label>
+                       </div>
+                       <div class="input-field col s6">
+                           <input id="last_name" type="text" class="validate">
+                           <label for="last_name">Project Code</label>
+                       </div>
+                       <form action="#" class="col s12">
+                           <div class="file-field input-field">
+                               <div class="btn">
+                                   <span>Upload</span>
+                                   <input type="file">
+                               </div>
+                               <div class="file-path-wrapper">
+                                   <input class="file-path validate" type="text">
+                               </div>
+                           </div>
+                       </form>
+
+                       <p>Or</p>
+                       <div class="input-field col s12">
+                           <input id="last_name" type="text" class="validate" placeholder="share.artilla/mVnnj54D">
+                           <label for="last_name">Project URL</label>
+                       </div>
+                       <a class="btn midnightBlue right" >Submit</a>
+                   </div>
+               </div>
+           </div>
+
+       </div>
+
+       <div class="row hide-on-med-and-down">
            <div class="col l8">
                <h4> certifications: </h4>
                <div class="container-fluid">
@@ -107,7 +177,7 @@ Excielnt marks , 10/10
            <div class="col l4">
                <h4>Projects :</h4>
 
-               <div class="card small">
+               <div class="card medium">
                    <div class="card-content">
                        <div class="input-field col s6">
                            <input id="last_name" type="text" class="validate">
@@ -134,7 +204,7 @@ Excielnt marks , 10/10
                            <input id="last_name" type="text" class="validate" placeholder="share.artilla/mVnnj54D">
                            <label for="last_name">Project URL</label>
                        </div>
-
+                        <a class="btn midnightBlue right" >Submit</a>
                    </div>
                </div>
            </div>

@@ -159,7 +159,7 @@ div.megaMenuAr-tab button.active {
     border-radius: 4px;
     line-height: 25px;
     border: 2px solid transparent;
-
+    margin: 5px 2px;
 }
 
 .footer-linkss:hover{
@@ -405,11 +405,6 @@ input.valid:not([type]), input.valid:not([type]):focus, input[type=text].valid:n
 
 /*Tab Form Style*/
 
-.container-signForm {
-    width: 500px;
-    height: 600px;
-    margin: 2rem auto;
-}
 
 .container-course {
     height: auto;
@@ -418,7 +413,13 @@ input.valid:not([type]), input.valid:not([type]):focus, input[type=text].valid:n
 
 .container-signForm
 {
-    width: 500px;
+    width: 35%;
+    height: 600px;
+    margin: 2rem auto;
+}
+
+.container-signForm-mob
+{
     height: 600px;
     margin: 2rem auto;
 }
@@ -785,12 +786,14 @@ input.valid:not([type]), input.valid:not([type]):focus, input[type=text].valid:n
     padding: 15px;
     z-index: 10 !important;
     top: 14rem;
+    width: 100%;
+    left: 0 !important;
 }
 
 .popoverCard:before {
     content: "";
     position: absolute;
-    left: 42%;
+    left: 46%;
     bottom: 100%;
     display: block;
     width: 0;

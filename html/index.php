@@ -23,7 +23,7 @@
 
 <body>
 
-    <nav class="transparent z-depth-0">
+    <nav class="transparent z-depth-0 hide-on-med-and-down">
         <div class="nav-wrapper container">
             <a href="/" class="brand-logo wetAsphalt-text" style="z-index: 100">Artilla</a>
             <ul id="nav-mobile" class="right hide-on-med-and-down">
@@ -33,18 +33,8 @@
         </div>
     </nav>
 
-   <!--- <div class="main-screen">
-        <ul class="slideshow">
-            <li class="image active"> <h1 class="slider-text centered">...Scroll Down To Reveal Content</h1></li>
-            <li class="image"><h1 class="slider-text bottom-right">...Scroll Down To Reveal Content</h1></li>
-            <li class="image"><h1 class="slider-text bottom-left">...Scroll Down To Reveal Content</h1></li>
-            <li class="image"><h1 class="slider-text centered">...Scroll Down To Reveal Content</h1></li>
-            <li class="image"><h1 class="slider-text bottom-left">...Scroll Down To Reveal Content</h1></li>
-        </ul>
-    </div> -->
-
     <!-- Mega Menu -->
-    <div class="megaMenuAr z-depth-1">
+    <div class="megaMenuAr z-depth-1 hide-on-med-and-down">
         <div class="container">
             <div class="megaMenuAr-dropdown right ">
                 <button class="dropbtn">الدورات
@@ -79,6 +69,27 @@
             <a href="#news" class="right">وظائف</a>
         </div>
     </div>
+
+    <!-- Mobile navbar -->
+    <!-- Dropdown Structure -->
+    <ul id="dropdown1" class="dropdown-content midnightBlue">
+        <li><a class="white-text" href="#!">رسم</a></li>
+        <li><a class="white-text" href="#!">تصوير فوتوغرافي</a></li>
+        <li><a class="white-text" href="#!">تحرير فيديو</a></li>
+    </ul>
+    <nav class="hide-on-large-only">
+        <div class="nav-wrapper white">
+            <a href="#!" class="brand-logo wetAsphalt-text">Artilla</a>
+            <a href="#" data-activates="mobile-demo" class="button-collapse wetAsphalt-text"><i class="material-icons">menu</i></a>
+            <ul class="side-nav wetAsphalt" id="mobile-demo">
+                <li><a class="dropdown-button white-text" href="#!" data-activates="dropdown1"><i class="material-icons white-text right">arrow_drop_down</i>الدورات</a></li>
+                <li><a class="white-text" href="#">محتوى بصري</a></li>
+                <li><a class="white-text" href="#">المتجر</a></li>
+                <li><a class="white-text" href="#">اعمال المتدربين</a></li>
+                <li><a class="white-text" href="#">وظائف</a></li>
+            </ul>
+        </div>
+    </nav>
 
     <div class="slider z-depth-1">
         <ul class="slides">
@@ -152,10 +163,10 @@
             </div>
         </div>
         <div class="row">
-            <div class="col l2">
-                <a class="waves-effect waves-light btn pink lighten-2 btn-large" style="margin-top: 8px;">انشاء حساب</a>
+            <div class="col l2 s12">
+                <a class="waves-effect waves-light btn pink lighten-2 btn-large btn-block" style="margin-top: 8px;">انشاء حساب</a>
             </div>
-            <div class="card-panel wetAsphalt col l10" style="height: 54px;">
+            <div class="card-panel wetAsphalt col l10 s12" style="height: 54px;">
                 <h5 class="white-text right-align"> انضم الان وأبدأ التعلم حالاََ </h5>
             </div>
         </div>
@@ -167,28 +178,28 @@
             <h4 class=" col l12 right-align ques-intro wetAsphalt-text">
                 من يمكنه الاستفادة من المنصة<span class="pink-text text-lighten-2">؟</span>
             </h4>
-            <div class="col l3 center-align">
+            <div class="col l3 s12 center-align">
                 <div class="card-panel center-align">
                     <i class="fa fa-apple fa-5x wetAsphalt-text" aria-hidden="true"></i>
                     <h4 class="pink-text text-lighten-2">الطلاب</h4>
                     <div class="popoverCard popoverCardOff">Cras mattis consectetur purus sit amet fermentum. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum.</div>
                 </div>
             </div>
-            <div class="col l3 center-align">
+            <div class="col l3 s12 center-align">
                 <div class="card-panel">
                     <i class="fa fa-bitbucket fa-5x wetAsphalt-text" aria-hidden="true"></i>
                     <h4 class="pink-text text-lighten-2">الطلاب</h4>
                     <div class="popoverCard popoverCardOff">Cras mattis consectetur purus sit amet fermentum. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum.</div>
                 </div>
             </div>
-            <div class="col l3 center-align">
+            <div class="col l3 s12 center-align">
                 <div class="card-panel">
                     <i class="fa fa-bluetooth fa-5x wetAsphalt-text" aria-hidden="true"></i>
                     <h4 class="pink-text text-lighten-2">الطلاب</h4>
                     <div class="popoverCard popoverCardOff">Cras mattis consectetur purus sit amet fermentum. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum.</div>
                 </div>
             </div>
-            <div class="col l3 center-align">
+            <div class="col l3 s12 center-align">
                 <div class="card-panel">
                     <i class="fa fa-amazon fa-5x wetAsphalt-text" aria-hidden="true"></i>
                     <h4 class="pink-text text-lighten-2">الطلاب</h4>
@@ -202,14 +213,14 @@
             <h4 class=" col l12 right-align ques-intro wetAsphalt-text">
                 ماذا تحوي المنصة<span class="pink-text text-lighten-2">؟</span>
             </h4>
-            <div class="col l3">
+            <div class="col l3 s12">
                 <div class="card-panel center-align">
                     <i class="fa fa-android fa-5x wetAsphalt-text" aria-hidden="true"></i>
                     <h4 class="pink-text text-lighten-2">تصميم</h4>
                     <div class="popoverCard popoverCardOff">Cras mattis consectetur purus sit amet fermentum. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum.</div>
                 </div>
             </div>
-            <div class="col l3 center-align">
+            <div class="col l3 s12 center-align">
                 <div class="card-panel">
                     <i class="fa fa-btc fa-5x wetAsphalt-text" aria-hidden="true"></i>
                     <h4 class="pink-text text-lighten-2">مونتاج</h4>
@@ -217,7 +228,7 @@
 
                 </div>
             </div>
-            <div class="col l3 center-align">
+            <div class="col l3 s12 center-align">
                 <div class="card-panel">
                     <i class="fa fa-codepen fa-5x wetAsphalt-text " aria-hidden="true"></i>
                     <h4 class="pink-text text-lighten-2">تعديل</h4>
@@ -225,7 +236,7 @@
 
                 </div>
             </div>
-            <div class="col l3 center-align">
+            <div class="col l3 s12 center-align">
                 <div class="card-panel">
                     <i class="fa fa-edge fa-5x wetAsphalt-text" aria-hidden="true"></i>
                     <h4 class="pink-text text-lighten-2">رسم</h4>
@@ -238,18 +249,17 @@
     </div>
 
     <div class="col l12">
-        <div class="card-panel">
+        <div class="card" style="    padding: 10px 0;">
             <div class="container">
                 <h5 class="right-align wetAsphalt-text">أشترك الان للحصول على نشرتنا الاسبوعية للمواد القلمية في الفنون البصرية </h5>
                 <h5 class="right-align wetAsphalt-text"> عروضنا ومنتجاتنا أكثر من ذلك بكثير</h5>
 
                 <div class="row">
-
                     <div class="row">
-                        <div class="input-field col s6">
+                        <div class="input-field col l6 s12">
                             <input  type="text" placeholder="Name">
                         </div>
-                        <div class="input-field col s6">
+                        <div class="input-field col l6 s12">
                             <input  type="tel" class="validate" placeholder="Email">
                         </div>
                     </div>
@@ -266,7 +276,7 @@
     <footer class="page-footer wetAsphalt">
         <div class="container ">
             <div class="row">
-                <div class="col l6 s12">
+                <div class="col l6 s6">
                     <a class="btn btn-social-icon btn-facebook btn-socialMedia">
                         <span class="fa fa-facebook"></span>
                     </a>
@@ -280,11 +290,17 @@
                         <span class="fa fa-linkedin"></span>
                     </a>
                 </div>
-                <div class="col l6 right-align">
+                <div class="col l6 s6 right-align hide-on-small-only">
                     <a class="waves-effect waves-teal btn-flat footer-linkss">أسئلة شائعة</a>
                     <a class="waves-effect waves-teal btn-flat footer-linkss">اتصل بنا</a>
                     <a class="waves-effect waves-teal btn-flat footer-linkss">رسالتنا</a>
                     <a class="waves-effect waves-teal btn-flat footer-linkss">حول ارتيلا</a>
+                </div>
+                <div class="col l6 s6 right-align hide-on-med-and-up">
+                    <a class="waves-effect waves-teal btn-flat footer-linkss btn-block">أسئلة شائعة</a>
+                    <a class="waves-effect waves-teal btn-flat footer-linkss btn-block">اتصل بنا</a>
+                    <a class="waves-effect waves-teal btn-flat footer-linkss btn-block">رسالتنا</a>
+                    <a class="waves-effect waves-teal btn-flat footer-linkss btn-block">حول ارتيلا</a>
                 </div>
             </div>
         </div>

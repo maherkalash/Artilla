@@ -60,7 +60,7 @@
 
         <h3 class="right-align wetAsphalt-text">اسم الكورس </h3>
         <div class="row">
-            <div class="col l4 s12">
+            <div class="col l4 s12 hide-on-med-and-down">
 
                 <div class="card">
                     <div class="sec-head">
@@ -126,18 +126,22 @@
 
                 <div class="container-course">
                     <ul class="tabs midnightBlue tabs-fixed-width">
-                        <li class="tab col l6"><a class="white-text active" href="#about">عن المحاضر </a></li>
-                        <li class="tab col l6"><a class="white-text" href="#extra_resources">مصادر اضافية</a></li>
+                        <li class="tab col l6 s12"><a class="white-text active" href="#about">عن المحاضر </a></li>
+                        <li class="tab col l6 s12"><a class="white-text" href="#extra_resources">مصادر اضافية</a></li>
                     </ul>
 
                     <div id="about" class="col s12 white z-depth-2">
                         <div class="row">
 
-                            <div class="col l3">
+                            <div class="col l3 hide-on-med-and-down">
                                 <img src="imgs/course-info.png" class="responsive-img" style="margin-top: 20px">
                             </div>
 
-                            <div class="col l6">
+                            <div class="col s12 hide-on-large-only">
+                                <img src="http://via.placeholder.com/100x100" class="responsive-img" style="margin-top: 20px">
+                            </div>
+
+                            <div class="col l6 s12">
                                 <h4 class="right-align wetAsphalt-text">اسم المحاضر</h4>
                                 <p class="right-align">
                                     Lorem ipsum dolor sit amet, te velit appareat his, te ius omnis iudicabit rationibus. Solet minimum omittantur eos te, quod mutat sea ut, qui ut fabellas mediocrem persequeris. Eius fabulas vocibus in vix. Vis ei quas referrentur.
@@ -158,29 +162,84 @@
                                 </div>
                             </div>
 
-                            <div class="col l3">
+                            <div class="col l3 hide-on-med-and-down">
                                 <img src="http://via.placeholder.com/100x100" class="responsive-img" style="margin-top: 20px">
                             </div>
                         </div>
                     </div>
 
                     <div id="extra_resources" class="col s12 white z-depth-2">
-                        <div class="row">
-
-                            <div class="col l12">
-                                <ul class="collection no-border">
-                                    <li class="collection-item avatar">
-                                        <i class="material-icons circle">folder</i>
-                                        <span class="title">PROJECT_FILES.zip</span>
-                                        <p>33 mg</p>
-                                        <a href="#!" class="secondary-content tooltipped" data-position="bottom" data-delay="50" data-tooltip="Download File"><i class="material-icons small grey-text text-darken-1">file_download</i></a>
-                                    </li>
-                                </ul>
-                            </div>
-
+                        <div class="row col s12">
+                            <ul class="collection no-border">
+                                <li class="collection-item avatar">
+                                    <i class="material-icons circle">folder</i>
+                                    <span class="title">PROJECT_FILES.zip</span>
+                                    <p>33 mg</p>
+                                    <a href="#!" class="secondary-content tooltipped" data-position="bottom" data-delay="50" data-tooltip="Download File"><i class="material-icons small grey-text text-darken-1">file_download</i></a>
+                                </li>
+                            </ul>
                         </div>
                     </div>
                 </div><!-- end  -->
+            </div>
+
+            <div class="col l4 s12 hide-on-large-only">
+
+                <div class="card">
+                    <div class="sec-head">
+                        <p>معلومات سريعة</p>
+                    </div>
+                    <div class="card-content right-align">
+
+                        <ul class="collapsible z-depth-0 collapsible-border">
+                            <li>
+                                <div class="collapsible-header"><i class="material-icons pink-text text-lighten-2">attach_money</i>40,000 ل.س</div>
+                            </li>
+                            <li>
+                                <div class="collapsible-header"><i class="material-icons pink-text text-lighten-2">subscriptions</i>33</div>
+                            </li>
+                            <li>
+                                <div class="collapsible-header"><i class="material-icons pink-text text-lighten-2">sync</i>2/10/2017</div>
+                            </li>
+                            <li>
+                                <div class="collapsible-header"><i class="material-icons pink-text text-lighten-2">timer</i>65 ساعة</div>
+                            </li>
+                            <li>
+                                <div class="collapsible-header"><i class="material-icons pink-text text-lighten-2">translate</i>عربي</div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="sec-head">
+                        <p>الفيديوهات</p>
+                    </div>
+                    <div class="card-content right-align">
+                        <input type="text" class="right-align" id="myInput" onkeyup="SearchCouFunc()" placeholder="البحث بالكورس .."></textarea>
+
+                        <ul id="myUL">
+                            <li><a href="#">Adele</a></li>
+                            <li><a href="#">Agnes</a></li>
+
+                            <li><a href="#">Billy</a></li>
+                            <li><a href="#">Bob</a></li>
+
+                            <li><a href="#">Calvin</a></li>
+                            <li><a href="#">Christina</a></li>
+                            <li><a href="#">Cindy</a></li>
+                            <li><a href="#">Adele</a></li>
+                            <li><a href="#">Agnes</a></li>
+
+                            <li><a href="#">Billy</a></li>
+                            <li><a href="#">Bob</a></li>
+
+                            <li><a href="#">Calvin</a></li>
+                            <li><a href="#">Christina</a></li>
+                            <li><a href="#">Cindy</a></li>
+                        </ul>
+                    </div>
+                </div>
             </div>
 
             <div class="col l8">

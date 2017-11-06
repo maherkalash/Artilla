@@ -42,8 +42,163 @@
 
     <div class="container">
         <div class="row">
+
+            <div class="col l8 s12 hide-on-large-only">
+                <!-- Question Here -->
+                <div class="card">
+                    <div class="card-content wetAsphalt-text">
+                        <div class="row">
+                            <div class="col l2 s12 right">
+                                <img src="http://via.placeholder.com/100x100" class="responsive-img right">
+                                <span class="card-title right-align" style="margin : 0 5px ;">ما هي افضل ايقونات للتصميم ؟</span>
+                            </div>
+                            <div class="col l10 s12right">
+                                <p class="right-align">
+                                    اثناء تصفحي للانترنت وجدت عدة مواقع تتيح تحميل ايقونات بجودات مختلفة وبلواحق مختلفة كالــ SVG وال PNG , JPG , PSD وغيرها ماهي المواقع المجانية التي تتيح هذه الخدمة ؟
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-action">
+                        <a href="#" class="midnightBlue-text">@username</a>
+                        <a class="right midnightBlue-text"><i class="material-icons ">comment</i>30</a>
+                    </div>
+                </div>
+                <!-- Users Comments here -->
+                <div class="card">
+                    <div class="card-content wetAsphalt-text">
+                        <div class="row">
+                            <div class="col l2 s12">
+                                <img src="http://via.placeholder.com/100x100" class="responsive-img right">
+                                <span class="card-title mar-sides">Adnan Diab</span>
+                            </div>
+
+                            <div class="col l10 right">
+                                <p class="right-align">
+                                    هذا نص تجريبي لمحاكاة الاجابة التي ستوضع في هذه المنطقة لاعادة تصميم هذه القسم في حال وجود خطا بالتصميم او اذا كان يحوي بعض الاخطاء على الاجهزة المحمولة والخليوية
+                                </p>
+                                <!-- Reply  -->
+                                <div class="replies">
+                                    <a class="show-replies pointer" style="font-size: 1.3rem;"> Show all replies </a>
+
+                                    <div class="replies-dicussion hidden-element">
+                                        <div class="row mar-top">
+                                            <div class="col l2 right">
+                                                <img src="http://via.placeholder.com/100x100" class="responsive-img right">
+                                                <span class="card-title right-align">Maher Kalash <span style="font-size: 15px ;">@username_replyuser</span></span>
+                                            </div>
+                                            <div class="col l10 right">
+                                                <p class="right-align">
+                                                    هذا نص تجريبي لمحاكاة الاجابة التي ستوضع في هذه المنطقة لاعادة تصميم هذه القسم في حال وجود خطا بالتصميم او اذا كان يحوي بعض الاخطاء على الاجهزة المحمولة والخليوية
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="row mar-top">
+                                            <div class="col l2 right">
+                                                <img src="http://via.placeholder.com/100x100" class="responsive-img right">
+                                                <span class="card-title right-align">Maher Kalash <span style="font-size: 15px ;">@username_replyuser</span></span>
+                                            </div>
+                                            <div class="col l10 right">
+                                                <p class="right-align">
+                                                    هذا نص تجريبي لمحاكاة الاجابة التي ستوضع في هذه المنطقة لاعادة تصميم هذه القسم في حال وجود خطا بالتصميم او اذا كان يحوي بعض الاخطاء على الاجهزة المحمولة والخليوية
+                                                </p>
+                                            </div>
+                                        </div>
+
+                                        <!-- Reply Box -->
+                                        <div class="card z-depth-0" id="reply-box">
+                                            <div class="card-content wetAsphalt-text">
+                                                <textarea id="textarea1" class="materialize-textarea right-align" placeholder="اترك رد ...."></textarea>
+                                            </div>
+                                            <div class="card-action">
+                                                <a href="#" class="wetAsphalt btn waves-effect waves-light">رد</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-action">
+                        <a href="#" class="wetAsphalt-text">@username_commenter</a>
+                    </div>
+                </div>
+
+                <!-- Another Users Comments here -->
+                <div class="card">
+                    <div class="card-content wetAsphalt-text">
+                        <div class="row">
+                            <div class="col l2 s12">
+                                <img src="http://via.placeholder.com/100x100" class="responsive-img right">
+                                <span class="card-title mar-sides">Adnan Diab</span>
+                            </div>
+
+                            <div class="col l10 right">
+                                <p class="right-align">
+                                    هذا نص تجريبي لمحاكاة الاجابة التي ستوضع في هذه المنطقة لاعادة تصميم هذه القسم في حال وجود خطا بالتصميم او اذا كان يحوي بعض الاخطاء على الاجهزة المحمولة والخليوية
+                                </p>
+                                <!-- Reply  -->
+                                <div class="replies">
+                                    <a class="show-replies pointer" style="font-size: 1.3rem;"> Show all replies </a>
+
+                                    <div class="replies-dicussion hidden-element">
+                                        <div class="row mar-top">
+                                            <div class="col l2 right">
+                                                <img src="http://via.placeholder.com/100x100" class="responsive-img right">
+                                                <span class="card-title right-align">Maher Kalash <span style="font-size: 15px ;">@username_replyuser</span></span>
+                                            </div>
+                                            <div class="col l10 right">
+                                                <p class="right-align">
+                                                    هذا نص تجريبي لمحاكاة الاجابة التي ستوضع في هذه المنطقة لاعادة تصميم هذه القسم في حال وجود خطا بالتصميم او اذا كان يحوي بعض الاخطاء على الاجهزة المحمولة والخليوية
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="row mar-top">
+                                            <div class="col l2 right">
+                                                <img src="http://via.placeholder.com/100x100" class="responsive-img right">
+                                                <span class="card-title right-align">Maher Kalash <span style="font-size: 15px ;">@username_replyuser</span></span>
+                                            </div>
+                                            <div class="col l10 right">
+                                                <p class="right-align">
+                                                    هذا نص تجريبي لمحاكاة الاجابة التي ستوضع في هذه المنطقة لاعادة تصميم هذه القسم في حال وجود خطا بالتصميم او اذا كان يحوي بعض الاخطاء على الاجهزة المحمولة والخليوية
+                                                </p>
+                                            </div>
+                                        </div>
+
+                                        <!-- Reply Box -->
+                                        <div class="card z-depth-0" id="reply-box">
+                                            <div class="card-content wetAsphalt-text">
+                                                <textarea id="textarea1" class="materialize-textarea right-align" placeholder="اترك رد ...."></textarea>
+                                            </div>
+                                            <div class="card-action">
+                                                <a href="#" class="wetAsphalt btn waves-effect waves-light">رد</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-action">
+                        <a href="#" class="wetAsphalt-text">@username_commenter</a>
+                    </div>
+                </div>
+
+
+                <!-- Add Comment Box -->
+                <div class="card">
+                    <div class="card-content wetAsphalt-text">
+                        <textarea id="textarea1" class="materialize-textarea right-align" placeholder="اترك تعليقا ...."></textarea>
+                    </div>
+                    <div class="card-action">
+                        <a href="#" class="midnightBlue btn waves-effect waves-light">تعليق</a>
+                    </div>
+                </div>
+
+            </div>
+
             <!-- Question related -->
-            <div class="col l4">
+            <div class="col l4 s12">
                 <a class="btn btn-block pink lighten-2 btn modal-trigger" href="#add_question">اضافة سؤال</a>
                 <input type="text" id="myInput" class="right-align" onkeyup="SearchQAFunc()" placeholder="ابحث عن سؤال ...">
                 <ul class="collection with-header" id="myUL-qs">
@@ -55,7 +210,7 @@
                 </ul>
             </div>
 
-            <div class="col l8">
+            <div class="col l8 s12 hide-on-med-and-down">
                 <!-- Question Here -->
                 <div class="card">
                     <div class="card-content wetAsphalt-text">

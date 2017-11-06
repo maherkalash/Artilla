@@ -154,12 +154,10 @@
             <h5 class="right-align">
                 شكرا لك , سنقوم مراسلتك خلال مدة اقصاها 24 ساعة
             </h5>
-            <h5 class="left grey-text">
-                Artilla Team
-            </h5>
+
         </div>
 
-        <div style="overflow:auto;">
+        <div class="row" style="overflow:auto;">
             <div style="float:right;">
                 <button class="btn" type="button" id="prevBtn" onclick="nextPrev(-1)">Previous</button>
                 <button class="btn wetAsphalt" type="button" id="nextBtn" onclick="nextPrev(1)">Next</button>

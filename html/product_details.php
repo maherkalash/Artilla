@@ -107,7 +107,7 @@
                     </div>
                 </div>
 
-                <div class="row mar-top">
+                <div class="row mar-top hide-on-med-and-down">
                     <h5>Other Product :</h5>
                     <div class="col l6">
                         <div class="row">

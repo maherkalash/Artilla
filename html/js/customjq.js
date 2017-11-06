@@ -71,6 +71,9 @@ $(document).ready(function(){
 $(document).ready(function(){
     $(".replies").click(function(){
         $(this).find(".replies-dicussion").removeClass("hidden-element");
+        $(".show-replies").hide();
     });
 });
 
+//Mobile sidenav
+$(".button-collapse").sideNav();

@@ -46,14 +46,14 @@
 
 <div class="col l12 center mar-top">
     <!-- Control buttons -->
-    <a class="btn amber" onclick="filterSelection('rating')" name="category"><i class="fa fa-star-half-o" aria-hidden="true"></i></a>
-    <a class="btn lighten-3 pink white-text" onclick="filterSelection('newest')" name="category">جديد</a>
-    <a class="btn lighten-2 pink white-text" onclick="filterSelection('art')" name="category"> رسم</a>
-    <a class="btn lighten-2 pink white-text" onclick="filterSelection('photography')" name="category"> تصوير</a>
-    <a class="btn lighten-2 pink white-text" onclick="filterSelection('design')" name="category"> تصميم</a>
-    <a class="btn lighten-2 pink white-text" onclick="filterSelection('vfx')" name="category"> مونتاج</a>
-    <a class="btn lighten-2 pink white-text" onclick="filterSelection('vt')" name="category"> خدع بصرية</a>
-    <a class="btn wetAsphalt white-text" onclick="filterSelection('all')" name="category" checked> الكل </a>
+    <a class="btn amber mar-top" onclick="filterSelection('rating')" name="category"><i class="fa fa-star-half-o" aria-hidden="true"></i></a>
+    <a class="btn lighten-3 pink white-text mar-top" onclick="filterSelection('newest')" name="category">جديد</a>
+    <a class="btn lighten-2 pink white-text mar-top" onclick="filterSelection('art')" name="category"> رسم</a>
+    <a class="btn lighten-2 pink white-text mar-top" onclick="filterSelection('photography')" name="category"> تصوير</a>
+    <a class="btn lighten-2 pink white-text mar-top" onclick="filterSelection('design')" name="category"> تصميم</a>
+    <a class="btn lighten-2 pink white-text mar-top" onclick="filterSelection('vfx')" name="category"> مونتاج</a>
+    <a class="btn lighten-2 pink white-text mar-top" onclick="filterSelection('vt')" name="category"> خدع بصرية</a>
+    <a class="btn wetAsphalt white-text mar-top" onclick="filterSelection('all')" name="category" checked> الكل </a>
 
 </div>
 
@@ -293,6 +293,9 @@
     <div class="row">
         <div class="col l9">
             <img src="imgs/1.jpg" class="responsive-img">
+            <div class="bottom-action-gallery">
+
+            </div>
         </div>
         <div class="col l3">
             <div class="card">
@@ -302,14 +305,43 @@
                     <p>I am a very simple card. I am good at containing small bits of information.
                         I am convenient because I require little markup to use effectively.</p>
                 </div>
-                <div class="card-action">
-                    <a href="#">This is a link</a>
-                    <a href="#">This is a link</a>
+                <div class="card-action" style="padding: 0">
+                    <div class="action-nav">
+                        <a class="facebook-action-btn" href=""> <i class="fa fa-facebook" aria-hidden="true"></i> Facebook</a>
+                        <a class="instagram-action-btn" href=""> <i class="fa fa-instagram" aria-hidden="true"></i> Instagram</a>
+                    </div>
                 </div>
+            </div>
+            <div class="row" style="padding: 0">
+                <div class="col l3" style="padding:0;">
+                    <div class="action-nav">
+                        <a class="love-action-btn" href=""> <i class="fa fa-heart-o" aria-hidden="true"></i></a>
+                    </div>
+                </div>
+                <div class="col l9">
+                    <div class="share-button">
+                        <a href="#" class="social-toggle">Share</a>
+                        <div class="social-networks">
+                            <ul>
+                                <li class="social-twitter">
+                                    <a href="https://www.twitter.com">T</a>
+                                </li>
+                                <li class="social-facebook">
+                                    <a href="https://www.facebook.com">F</a>
+                                </li>
+                                <li class="social-gplus">
+                                    <a href="http://www.gplus.com">G+</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
             </div>
         </div>
     </div>
 </div>
+
 
 <div class="col l12 divider"></div>
 
@@ -325,38 +357,6 @@
     </ul>
 </div>
 
-<footer class="page-footer wetAsphalt">
-    <div class="container ">
-        <div class="row">
-            <div class="col l6 s12">
-                <a class="btn btn-social-icon btn-facebook btn-socialMedia">
-                    <span class="fa fa-facebook"></span>
-                </a>
-                <a class="btn btn-social-icon btn-twitter btn-socialMedia">
-                    <span class="fa fa-twitter"></span>
-                </a>
-                <a class="btn btn-social-icon btn-google btn-socialMedia">
-                    <span class="fa fa-google-plus"></span>
-                </a>
-                <a class="btn btn-social-icon btn-linkedin btn-socialMedia">
-                    <span class="fa fa-linkedin"></span>
-                </a>
-            </div>
-            <div class="col l6 right-align">
-                <a class="waves-effect waves-teal btn-flat footer-linkss">أسئلة شائعة</a>
-                <a class="waves-effect waves-teal btn-flat footer-linkss">اتصل بنا</a>
-                <a class="waves-effect waves-teal btn-flat footer-linkss">رسالتنا</a>
-                <a class="waves-effect waves-teal btn-flat footer-linkss">حول ارتيلا</a>
-            </div>
-        </div>
-    </div>
-    <div class="footer-copyright midnightBlue">
-        <div class="container">
-            © All Rights Reserved | <?php echo date('Y')?>
-            <a class="grey-text text-lighten-4 right" href="/">Artilla</a>
-        </div>
-    </div>
-</footer>
 
     <!--Import jQuery before materialize.js-->
     <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
