@@ -806,3 +806,126 @@ input.valid:not([type]), input.valid:not([type]):focus, input[type=text].valid:n
 .popoverCardOff {
     display: none;
 }
+
+
+/* love reactions style */
+/* facebook reaction style */
+
+.feed .love-btn {
+    background: #f06292;
+    color : #fff;
+    display: inline-block;
+    position: relative;
+    padding: 18px 12px 6px 12px;
+    cursor: pointer;
+    border-radius: 4px ;
+    transition: 0.2s;
+}
+.feed .love-btn::before {
+    content: ".";
+    opacity: 0;
+    display: block;
+    width: 44px;
+    height: 10px;
+    position: absolute;
+    top: -10px;
+    left: 0;
+}
+.feed .love-btn .reaction-box {
+    position: absolute;
+    width: 280px; /*donr forget edit when add like button*/
+    height: 55px;
+    background: #FFF;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
+    border-radius: 28px;
+    left: -25px;
+    bottom: 6rem;
+    display: none;
+}
+.feed .love-btn .reaction-box .reaction-icon.angry {
+    animation: fadeInLoad-angry 0.3s;
+    -webkit-animation-timing-function: ease-out;
+    animation-timing-function: ease-out;
+    background-position: 0px 0px;
+}
+.feed .love-btn .reaction-box .reaction-icon.flower {
+    animation: fadeInLoad-flower 0.3s;
+    -webkit-animation-timing-function: ease-out;
+    animation-timing-function: ease-out;
+    background-position: 0px -40px;
+}
+.feed .love-btn .reaction-box .reaction-icon.haha {
+    animation: fadeInLoad-haha 0.3s;
+    -webkit-animation-timing-function: ease-out;
+    animation-timing-function: ease-out;
+    background-position: 0px -80px;
+}
+.feed .love-btn .reaction-box .reaction-icon.like {
+    animation: fadeInLoad-like 0.3s;
+    -webkit-animation-timing-function: ease-out;
+    animation-timing-function: ease-out;
+    background-position: 0px -120px;
+}
+.feed .love-btn .reaction-box .reaction-icon.love {
+    animation: fadeInLoad-love 0.3s;
+    -webkit-animation-timing-function: ease-out;
+    animation-timing-function: ease-out;
+    background-position: 0px -160px;
+}
+.feed .love-btn .reaction-box .reaction-icon.sad {
+    animation: fadeInLoad-sad 0.3s;
+    -webkit-animation-timing-function: ease-out;
+    animation-timing-function: ease-out;
+    background-position: 0px -200px;
+}
+.feed .love-btn .reaction-box .reaction-icon.wow {
+    animation: fadeInLoad-wow 0.3s;
+    -webkit-animation-timing-function: ease-out;
+    animation-timing-function: ease-out;
+    background-position: 0px -240px;
+}
+.feed .love-btn .reaction-box .reaction-icon {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background: url(../imgs/react.png);
+    background-size: cover;
+    border-radius: 20px;
+    margin: 8px 4px 0 4px;
+    text-align: center;
+    pointer-events: none;
+    transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    opacity: 0;
+    transform: translate(0, 100px) scale(0);
+}
+.feed .love-btn .reaction-box .reaction-icon label {
+    padding: 4px 8px;
+    position: relative;
+    top: -30px;
+    border-radius: 4px;
+    font-size: 11px;
+    color: #FFF;
+    background: #333;
+    visibility: hidden;
+}
+.feed .love-btn .reaction-box .reaction-icon.show {
+    opacity: 1;
+    transform: translate(0, 0) scale(1);
+    pointer-events: auto;
+}
+.feed .love-btn .reaction-box .reaction-icon:hover {
+    transform: scale(1.4);
+    transform-origin: bottom;
+}
+.feed .love-btn .reaction-box .reaction-icon:hover label {
+    visibility: visible;
+}
+.feed .love-btn:hover {
+    background: #34495e;
+}
+
+.lovebtn-clicked {
+    background-color: green !important;
+    color : #f06292 !important;
+}
+

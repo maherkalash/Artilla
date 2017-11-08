@@ -293,6 +293,46 @@
         }
 
 
+        /* share style  */
+
+        .share-btn {
+            width: 6rem;
+            line-height: 2em;
+            padding: 1.5rem 6rem;
+            position: relative;
+            font-size: 25px;
+            text-align: center;
+            transition: all 0.25s;
+            color: #333 ;
+            background: transparent;
+            border: 2px solid #ddd;
+
+        }
+        .share-btn:hover {
+            color: rgb(200,200,200);
+            background: #333;
+            border: 2px solid #eee;
+
+        }
+
+        .shareBoard {
+            width: 6rem;
+            padding: 1.5rem 6rem;
+            position: absolute;
+            top:0;
+            right: 0;
+
+        }
+
+        .activeshare {
+            z-index: 5;
+        }
+
+        .large-share-btn {
+            /* width: 6rem; */
+            padding: 1rem 6rem;
+            line-height: 1rem;
+        }
 
 
 
@@ -365,6 +405,22 @@
                 </div>
             </a>
         </div>
+        <div class="share-btn activeshare">
+            <div class="shareBoard row">
+                <a class="btn  btn-facebook large-share-btn">
+                    <span class="fa fa-facebook"></span>
+                </a>
+                <a class="btn  btn-facebook large-share-btn">
+                    <span class="fa fa-facebook"></span>
+                </a>
+                <a class="btn  btn-facebook large-share-btn">
+                    <span class="fa fa-facebook"></span>
+                </a>
+                <a class="btn  btn-facebook large-share-btn">
+                    <span class="fa fa-facebook"></span>
+                </a>
+            </div>
+        </div>
     </div>
 
 
@@ -423,6 +479,13 @@
             $(".love").click(function(){
                 $(".love-btn").toggleClass("lovebtn-clicked");
             });
+        });
+    </script>
+
+    <script>
+        $(".share-btn").click(function(){
+            $(this).removeClass("activeshare");
+            $("shareBoard").addClass("activeshare");
         });
     </script>
 

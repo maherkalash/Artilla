@@ -16,7 +16,12 @@
     <link type="text/css" rel="stylesheet" href="gallery/cssGallery.css"/>
     <!--Import Custom Css-->
     <link type="text/css" rel="stylesheet" href="css/custom.css"/>
-
+    <style>
+        .butnz-share {
+            margin: 7px 0px 0px 0;
+            padding: 0 25px;
+        }
+    </style>
 </head>
 
 
@@ -314,27 +319,56 @@
             </div>
             <div class="row" style="padding: 0">
                 <div class="col l3" style="padding:0;">
-                    <div class="action-nav">
-                        <a class="love-action-btn" href=""> <i class="fa fa-heart-o" aria-hidden="true"></i></a>
-                    </div>
-                </div>
-                <div class="col l9">
-                    <div class="share-button">
-                        <a href="#" class="social-toggle">Share</a>
-                        <div class="social-networks">
-                            <ul>
-                                <li class="social-twitter">
-                                    <a href="https://www.twitter.com">T</a>
-                                </li>
-                                <li class="social-facebook">
-                                    <a href="https://www.facebook.com">F</a>
-                                </li>
-                                <li class="social-gplus">
-                                    <a href="http://www.gplus.com">G+</a>
-                                </li>
-                            </ul>
+                    <!-- Facebook Reaction Code -->
+                    <div class="center-align" style="margin-top: 25%">
+                        <div class="feed">
+                            <a class="love-btn">
+                                <i class="material-icons">favorite</i> Love
+
+                                <div class="reaction-box">
+                                    <!--  <div class="reaction-icon like">
+                                          <label>Like</label>
+                                      </div>  -->
+                                    <div class="reaction-icon love">
+                                        <label>Love</label>
+                                    </div>
+                                    <div class="reaction-icon haha">
+                                        <label>Haha</label>
+                                    </div>
+                                    <div class="reaction-icon wow">
+                                        <label>Wow</label>
+                                    </div>
+                                    <div class="reaction-icon sad">
+                                        <label>Sad</label>
+                                    </div>
+                                    <div class="reaction-icon angry">
+                                        <label>Angry</label>
+                                    </div>
+                                </div>
+                            </a>
                         </div>
                     </div>
+                </div>
+
+                <div class="col l9" style="margin-top: 10px; ">
+                    <a class="btn  btn-facebook butnz-share">
+                        <span class="fa fa-facebook"></span>
+                    </a>
+                    <a class="btn  btn-twitter butnz-share">
+                        <span class="fa fa-twitter"></span>
+                    </a>
+                    <a class="btn  btn-google butnz-share">
+                        <span class="fa fa-google"></span>
+                    </a>
+                    <a class="btn  btn-linkedin butnz-share">
+                        <span class="fa fa-linkedin"></span>
+                    </a>
+                    <a class="btn  btn-instagram butnz-share">
+                        <span class="fa fa-instagram"></span>
+                    </a>
+                    <a class="btn  btn-pinterest butnz-share">
+                        <span class="fa fa-pinterest"></span>
+                    </a>
                 </div>
 
             </div>

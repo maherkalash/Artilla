@@ -77,3 +77,28 @@ $(document).ready(function(){
 
 //Mobile sidenav
 $(".button-collapse").sideNav();
+
+//love reactions effect
+$(function(){
+    $(".love-btn").hover(function() {
+        $(".reaction-box").fadeIn(100, function() {
+            $(".reaction-icon").each(function(i, e) {
+                setTimeout(function(){
+                    $(e).addClass("show");
+                }, i * 100);
+            });
+        });
+    }, function() {
+        setTimeout(function(){
+            $(".reaction-box").fadeOut(300, function(){
+                $(".reaction-icon").removeClass("show")
+            })
+        }, 500);
+    });
+});
+//love reaction function when click
+$(document).ready(function(){
+    $(".love").click(function(){
+        $(".love-btn").toggleClass("lovebtn-clicked");
+    });
+});
