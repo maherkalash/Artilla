@@ -64,12 +64,15 @@
             padding-top: 10px;
             right: 0;
         }
+
         /* dropdown arrow */
-        .megaMenuAr-dropdown-content::after{
-            content: "";
+        .megaMenu-parent-arrow{
+            position: relative;
+        }
+        .megaMenu-arrow{
             position: absolute;
-            top: -10px;
-            right: 8%;
+            top: -20px;
+            right: 40px;
             margin-left: -5px;
             border-width: 10px;
             border-style: solid;
@@ -106,11 +109,13 @@
         /* Change background color of buttons on hover */
         div.megaMenuAr-tab button:hover {
             background-color: #34495e;
+            border-right: 4px solid #f06292;
         }
 
         /* Create an active/current "tab button" class */
         div.megaMenuAr-tab button.active {
             background-color: #34495e;
+            border-right: 4px solid #f06292;
         }
 
         /* Style the tab content */
@@ -126,22 +131,29 @@
 
         /* Dropdown Button */
 
-        .dropbtn {
-            background-color: #4CAF50;
-            color: white;
-            padding: 16px;
+        /* The dropdown container */
+        .dropdowno {
+            float: left;
+            overflow: hidden;
+        }
+
+        /* Dropdown button */
+        .dropdowno .dropbtn {
             font-size: 16px;
             border: none;
-            cursor: pointer;
+            outline: none;
+            color: white;
+            padding: 20px 20px;
+            background-color: inherit;
         }
 
-        /* The container <div> - needed to position the dropdown content */
-        .dropdowno {
-            position: relative;
-            display: inline-block;
+        /* Add a red background color to navbar links on hover */
+        .dropdowno:hover .dropbtn {
+            background-color: rgba(0,0,0,0.1);
+            transition: 0.3s;
         }
 
-        /* Dropdown Content (Hidden by Default) */
+        /* Dropdown content (hidden by default) */
         .dropdowno-content {
             display: none;
             position: absolute;
@@ -153,24 +165,44 @@
 
         /* Links inside the dropdown */
         .dropdowno-content a {
+            float: none;
             color: black;
             padding: 12px 16px;
             text-decoration: none;
             display: block;
+            text-align: left;
         }
 
-        /* Change color of dropdown links on hover */
-        .dropdowno-content a:hover {background-color: #f1f1f1}
+        /* Add a grey background color to dropdown links on hover */
+        .dropdowno-content a:hover {
+            background-color: #ddd;
+        }
 
         /* Show the dropdown menu on hover */
         .dropdowno:hover .dropdowno-content {
             display: block;
         }
 
-        /* Change the background color of the dropdown button when the dropdown content is shown */
-        .dropdowno:hover .dropbtn {
-            background-color: #3e8e41;
-        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
         /* facebook reaction style */
 
@@ -349,32 +381,60 @@
                 <i class="fa fa-caret-down"></i>
             </button>
             <div class="megaMenuAr-dropdown-content">
-                <div id="art" class="megaMenuAr-tabcontent activate-tab">
-                    <h3>Hello , world</h3>
-                    <p>هذا النص تجربة من اجل معرفة المشاكل المتعلقة باللغة العرية .</p>
-                </div>
+                <div class="megaMenu-parent-arrow">
+                    <div class="megaMenu-arrow"></div>
+                    <div id="art" class="megaMenuAr-tabcontent activate-tab">
+                        <div class="row">
+                            <div class="col l6">
+                                <h5 class="center-align" style="font-weight: bold">Free</h5>
+                                <p class="center-align">Course 1</p>
+                                <p class="center-align">Iam BIG title Course name for test something (VFX)</p>
+                                <p class="center-align">Course 1</p>
+                                <p class="center-align">Course 1</p>
+                            </div>
+                            <div class="col l6">
+                                <h5 class="center-align" style="font-weight: bold">Paid</h5>
+                                <p class="center-align">Course 1</p>
+                                <p class="center-align">Course 1</p>
+                                <p class="center-align">Course 1</p>
+                                <p class="center-align">Course 1</p>
+                            </div>
+                        </div>
+                    </div>
 
-                <div id="photography" class="megaMenuAr-tabcontent">
-                    <h3>Hello , world</h3>
-                    <p>هذا نص اخر</p>
-                </div>
+                    <div id="photography" class="megaMenuAr-tabcontent">
+                        <h3>Hello , world</h3>
+                        <p>هذا نص اخر</p>
+                    </div>
 
-                <div id="video" class="megaMenuAr-tabcontent">
-                    <h3>Hello , world</h3>
-                    <p>وهذا ايضا نص مختلف عن النصوص السابقة</p>
-                </div>
+                    <div id="video" class="megaMenuAr-tabcontent">
+                        <h3>Hello , world</h3>
+                        <p>وهذا ايضا نص مختلف عن النصوص السابقة</p>
+                    </div>
 
-                <div class="megaMenuAr-tab">
-                    <button class="megaMenu-tablinks active" href="#" onclick="openCourse(event, 'art')" id="defaultOpen">رسم</button>
-                    <button class="megaMenu-tablinks" href="#" onclick="openCourse(event, 'photography')">تصوير فوتوغرافي</button>
-                    <button class="megaMenu-tablinks" href="#" onclick="openCourse(event, 'video')">تحرير فيديو</button>
+                    <div class="megaMenuAr-tab">
+                        <button class="megaMenu-tablinks active" href="#" onclick="openCourse(event, 'art')" id="defaultOpen">رسم</button>
+                        <button class="megaMenu-tablinks" href="#" onclick="openCourse(event, 'photography')">تصوير فوتوغرافي</button>
+                        <button class="megaMenu-tablinks" href="#" onclick="openCourse(event, 'video')">تحرير فيديو</button>
+                    </div>
                 </div>
             </div>
         </div>
+
         <a href="#home" class="right">محتوى بصري</a>
         <a href="#news" class="right">متجر</a>
         <a href="#home" class="right">اعمال متدربين</a>
         <a href="#news" class="right">وظائف</a>
+        <div class="dropdowno">
+            <button class="dropbtn">Dropdown
+                <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdowno-content">
+                <a href="#">Link 1</a>
+                <a href="#">Link 2</a>
+                <a href="#">Link 3</a>
+            </div>
+        </div>
     </div>
 
     <!-- Facebook Reaction Code -->

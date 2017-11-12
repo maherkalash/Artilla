@@ -8,7 +8,7 @@ body {
 
 /* Mega Section */
 
-/* Arabic css Mega Menu*/
+/* Arabic css Mega Menu
 .megaMenuAr {
     overflow: hidden;
     background-color: #34495e;
@@ -54,7 +54,7 @@ body {
     padding-top: 10px;
     right: 14%;
 }
-/* dropdown arrow */
+/* dropdown arrow
 .megaMenuAr-dropdown-content::after{
     content: "";
     position: absolute;
@@ -70,7 +70,7 @@ body {
     display: block;
 }
 
-/* Style the tab */
+/* Style the tab
 div.megaMenuAr-tab {
     float: left;
     background-color: #2c3e50;
@@ -78,7 +78,7 @@ div.megaMenuAr-tab {
     height: 300px;
 }
 
-/* Style the buttons inside the tab */
+/* Style the buttons inside the tab
 div.megaMenuAr-tab button {
     display: block;
     border: none;
@@ -93,17 +93,17 @@ div.megaMenuAr-tab button {
     text-align: right;
 }
 
-/* Change background color of buttons on hover */
+/* Change background color of buttons on hover
 div.megaMenuAr-tab button:hover {
     background-color: #34495e;
 }
 
-/* Create an active/current "tab button" class */
+/* Create an active/current "tab button" class
 div.megaMenuAr-tab button.active {
     background-color: #34495e;
 }
 
-/* Style the tab content */
+/* Style the tab content
 .megaMenuAr-tabcontent {
     float: left;
     text-align: right;
@@ -113,7 +113,7 @@ div.megaMenuAr-tab button.active {
     border-left: none;
     height: 300px;
 }
-
+*/
 /* Some Images Filter */
 
 .brightness {
