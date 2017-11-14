@@ -102,3 +102,12 @@ $(document).ready(function(){
         $(".love-btn").toggleClass("lovebtn-clicked");
     });
 });
+
+//signin register card
+$('.toggle').on('click', function() {
+    $('.container-signCard').stop().addClass('active');
+});
+
+$('.close').on('click', function() {
+    $('.container-signCard').stop().removeClass('active');
+});

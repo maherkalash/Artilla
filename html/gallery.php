@@ -316,14 +316,11 @@
                         <a class="instagram-action-btn" href=""> <i class="fa fa-instagram" aria-hidden="true"></i> Instagram</a>
                     </div>
                 </div>
-            </div>
-            <div class="row" style="padding: 0">
-                <div class="col l3" style="padding:0;">
-                    <!-- Facebook Reaction Code -->
-                    <div class="center-align" style="margin-top: 25%">
+                <div class="card-action" style="padding: 0">
+                    <div class="action-nav">
                         <div class="feed">
                             <a class="love-btn">
-                                <i class="material-icons">favorite</i> Love
+                                <i class="material-icons" style="line-height: 2;">favorite</i>
 
                                 <div class="reaction-box">
                                     <!--  <div class="reaction-icon like">
@@ -347,10 +344,52 @@
                                 </div>
                             </a>
                         </div>
+                        <a class="instagram-action-btn" href=""> <i class="fa fa-instagram" aria-hidden="true"></i> Instagram</a>
+                    </div>
+                </div>
+            </div>
+            <!--
+            <div class="row" style="padding: 0">
+                <div class="col l6" style="padding:0;">
+
+                    <div class="center-align" style="margin-top: 25%">
+                        <div class="feed">
+                            <a class="love-btn">
+                                <i class="material-icons" style="line-height: 2;">favorite</i>
+
+                                <div class="reaction-box">
+
+                                    <div class="reaction-icon love">
+                                        <label>Love</label>
+                                    </div>
+                                    <div class="reaction-icon haha">
+                                        <label>Haha</label>
+                                    </div>
+                                    <div class="reaction-icon wow">
+                                        <label>Wow</label>
+                                    </div>
+                                    <div class="reaction-icon sad">
+                                        <label>Sad</label>
+                                    </div>
+                                    <div class="reaction-icon angry">
+                                        <label>Angry</label>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
                     </div>
                 </div>
 
-                <div class="col l9" style="margin-top: 10px; ">
+                <div class="col l6" style="margin-top: 10px; ">
+                    <div class="dropshare">
+                        <a style="width:100%" onclick="myFunction()" class="dropshare-btn">Dropdown</a>
+                        <div id="share-dropdown" class="dropshare-content">
+                            <a href="#">Link 1</a>
+                            <a href="#">Link 2</a>
+                            <a href="#">Link 3</a>
+                        </div>
+                    </div>
+
                     <a class="btn  btn-facebook butnz-share">
                         <span class="fa fa-facebook"></span>
                     </a>
@@ -371,7 +410,7 @@
                     </a>
                 </div>
 
-            </div>
+            </div> -->
         </div>
     </div>
 </div>

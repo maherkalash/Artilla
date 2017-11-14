@@ -33,17 +33,32 @@
         </div>
     </nav>
 
-    <!-- Mega Menu -->
-    <div class="megaMenuAr z-depth-1 hide-on-med-and-down">
-        <div class="container">
-            <div class="megaMenuAr-dropdown right ">
-                <button class="dropbtn">الدورات
-                    <i class="fa fa-caret-down"></i>
-                </button>
-                <div class="megaMenuAr-dropdown-content">
-                    <div id="art" class="megaMenuAr-tabcontent">
-                        <h3>Hello , world</h3>
-                        <p>هذا النص تجربة من اجل معرفة المشاكل المتعلقة باللغة العرية .</p>
+    <div class="megaMenuAr">
+
+        <div class="megaMenuAr-dropdown right ">
+            <button class="dropbtn">الدورات
+                <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="megaMenuAr-dropdown-content">
+                <div class="megaMenu-parent-arrow">
+                    <div class="megaMenu-arrow"></div>
+                    <div id="art" class="megaMenuAr-tabcontent activate-tab">
+                        <div class="row">
+                            <div class="col l6">
+                                <h5 class="center-align" style="font-weight: bold">Free</h5>
+                                <p class="center-align">Course 1</p>
+                                <p class="center-align">Iam BIG title Course name for test something (VFX)</p>
+                                <p class="center-align">Course 1</p>
+                                <p class="center-align">Course 1</p>
+                            </div>
+                            <div class="col l6">
+                                <h5 class="center-align" style="font-weight: bold">Paid</h5>
+                                <p class="center-align">Course 1</p>
+                                <p class="center-align">Course 1</p>
+                                <p class="center-align">Course 1</p>
+                                <p class="center-align">Course 1</p>
+                            </div>
+                        </div>
                     </div>
 
                     <div id="photography" class="megaMenuAr-tabcontent">
@@ -57,16 +72,27 @@
                     </div>
 
                     <div class="megaMenuAr-tab">
-                        <button class="megaMenu-tablinks" onclick="openCourse(event, 'art')" id="defaultOpen">رسم</button>
-                        <button class="megaMenu-tablinks" onclick="openCourse(event, 'photography')">تصوير فوتوغرافي</button>
-                        <button class="megaMenu-tablinks" onclick="openCourse(event, 'video')">تحرير فيديو</button>
+                        <button class="megaMenu-tablinks active" href="#" onclick="openCourse(event, 'art')" id="defaultOpen">رسم</button>
+                        <button class="megaMenu-tablinks" href="#" onclick="openCourse(event, 'photography')">تصوير فوتوغرافي</button>
+                        <button class="megaMenu-tablinks" href="#" onclick="openCourse(event, 'video')">تحرير فيديو</button>
                     </div>
                 </div>
             </div>
-            <a href="gallery.php" class="right">محتوى بصري</a>
-            <a href="store.php" class="right">متجر</a>
-            <a href="gallery.php" class="right">اعمال متدربين</a>
-            <a href="#news" class="right">وظائف</a>
+        </div>
+
+        <a href="#home" class="right">محتوى بصري</a>
+        <a href="#news" class="right">متجر</a>
+        <a href="#home" class="right">اعمال متدربين</a>
+        <a href="#news" class="right">وظائف</a>
+        <div class="dropdowno">
+            <button class="dropbtn">Dropdown
+                <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdowno-content z-depth-2">
+                <a href="#">Link 1</a>
+                <a href="#">Link 2</a>
+                <a href="#">Link 3</a>
+            </div>
         </div>
     </div>
 

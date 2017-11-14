@@ -98,7 +98,7 @@
             </form>
         </div>
     </div> -->
-
+<!--
 
     <div class="container-signForm white z-depth-3 col s12">
         <ul class="tabs midnightBlue tabs-fixed-width">
@@ -159,6 +159,52 @@
                     <center>
                         <button class="btn waves-effect waves-light pink lighten-2" type="submit" name="action">انشاء حساب</button>
                     </center>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    -->
+
+    <div class="container-signCard z-depth-2 mar-top">
+        <div class="signCard"></div>
+        <div class="signCard">
+            <h1 class="signCard-title">Login</h1>
+            <form>
+                <div class="input-container-signCard">
+                    <input type="text" id="" required="required"/>
+                    <label for="">Username</label>
+                </div>
+                <div class="input-container-signCard">
+                    <input type="password" id="" required="required"/>
+                    <label for="">Password</label>
+                </div>
+                <div class="button-container-signCard">
+                    <button><span>Signin</span></button>
+                </div>
+                <div class="signCard-forget"><a href="#">Forgot your password?</a></div>
+            </form>
+        </div>
+        <div class="signCard alt">
+            <div class="toggle"></div>
+            <h1 class="signCard-title">Register
+                <div class="close"></div>
+            </h1>
+            <form>
+                <div class="input-container-signCard">
+                    <input type="text" id="" required="required"/>
+                    <label for="">E-mail</label>
+                </div>
+                <div class="input-container-signCard">
+                    <input type="password" id="" required="required"/>
+                    <label for="">Password</label>
+                </div>
+                <div class="input-container-signCard">
+                    <input type="password" id="" required="required"/>
+                    <label for="">Repeat Password</label>
+                </div>
+                <div class="button-container-signCard">
+                    <button><span>Register</span></button>
                 </div>
             </form>
         </div>
