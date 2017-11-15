@@ -484,28 +484,7 @@
     <script type="text/javascript" src="js/customjq.js"></script>
     <script type="text/javascript" src="js/customjs.js"></script>
     <script type="text/javascript" src="gallery/jsGallery.js"></script>
-<script>
-    /* When the user clicks on the button,
-toggle between hiding and showing the dropdown content */
-    function myFunction() {
-        document.getElementById("myDropdown").classList.toggle("show");
-    }
 
-    // Close the dropdown menu if the user clicks outside of it
-    window.onclick = function(event) {
-        if (!event.target.matches('.dropshare-btn')) {
-
-            var dropdowns = document.getElementsByClassName("dropsharedown-content");
-            var i;
-            for (i = 0; i < dropdowns.length; i++) {
-                var openDropdown = dropdowns[i];
-                if (openDropdown.classList.contains('show')) {
-                    openDropdown.classList.remove('show');
-                }
-            }
-        }
-    }
-</script>
 
 </body>
 </html>

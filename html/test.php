@@ -679,10 +679,11 @@
 
         /* button groups */
         .btn-group button {
-            color: white; /* White text */
-            padding: 15px 0; /* Some padding */
-            cursor: pointer; /* Pointer/hand icon */
-            float: left; /* Float the buttons side by side */
+            color: white;
+            padding: 13px;
+            cursor: pointer;
+            float: left;
+            width: 50%;
         }
 
         .btn-group button:not(:last-child) {
@@ -705,7 +706,7 @@
         /*share dropdown*/
 
         /* Dropdown Button */
-        .dropshare-btn{
+        .dropsharebtn {
             background-color: #4CAF50;
             color: white;
             padding: 16px;
@@ -715,7 +716,7 @@
         }
 
         /* Dropdown button on hover & focus */
-        .dropshare-btn:hover, .dropshare-btn:focus {
+        .dropsharebtn:hover, .dropshare-btn:focus {
             background-color: #3e8e41;
         }
 
@@ -744,7 +745,7 @@
         }
 
         /* Change color of dropdown links on hover */
-        .dropdown-content a:hover {background-color: #f1f1f1}
+        .dropshare-content a:hover {background-color: #f1f1f1}
 
         /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
         .show {display:block;}
@@ -817,16 +818,14 @@
         </div>
     </div>
 
-    <!-- Facebook Reaction Code -->
+    <!-- Facebook Reaction Code
     <div class="center-align" style="margin-top: 25%">
-        <div class="feed btn-group">
+        <div class="feed">
             <button class="love-btn" style="width:50%">
                 <i class="material-icons">favorite</i>
 
                 <div class="reaction-box">
-                  <!--  <div class="reaction-icon like">
-                        <label>Like</label>
-                    </div>  -->
+
                     <div class="reaction-icon love">
                         <label>Love</label>
                     </div>
@@ -844,69 +843,54 @@
                     </div>
                 </div>
             </button>
-            <button class="dropshare-btn">
-            <div class="dropshare">
-                <a style="width:50%" onclick="myFunction()" class="dropshare-btn">Dropdown</a>
-                <div id="share-dropdown" class="dropshare-content">
-                    <a href="#">Link 1</a>
-                    <a href="#">Link 2</a>
-                    <a href="#">Link 3</a>
+        </div>
+    </div>
+    -->
+
+    <div class="center-align col l4" style="margin-top: 25%">
+        <!-- button Group  -->
+        <!-- Three buttons in a group -->
+        <div class="btn-group" style="width:100%">
+            <div style="width:50%" class="">
+                <div class="feed">
+                    <button class="love-btn" style="width:50%">
+                        <i class="material-icons">favorite</i>
+
+                        <div class="reaction-box">
+
+                            <div class="reaction-icon love">
+                                <label>Love</label>
+                            </div>
+                            <div class="reaction-icon haha">
+                                <label>Haha</label>
+                            </div>
+                            <div class="reaction-icon wow">
+                                <label>Wow</label>
+                            </div>
+                            <div class="reaction-icon sad">
+                                <label>Sad</label>
+                            </div>
+                            <div class="reaction-icon angry">
+                                <label>Angry</label>
+                            </div>
+                        </div>
+                    </button>
                 </div>
             </div>
-            </button>
+            <div style="width:50%" class="">
+                <div class="dropshare">
+                    <button onclick="myFunction()" class="dropshare-btn">Dropdown</button>
+                    <div id="" class="dropshare-content">
+                        <a href="#">Link 1</a>
+                        <a href="#">Link 2</a>
+                        <a href="#">Link 3</a>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 
-    <div class="container-signCard">
-        <div class="signCard"></div>
-        <div class="signCard">
-            <h1 class="signCard-title">Login</h1>
-            <form>
-                <div class="input-container-signCard">
-                    <input type="text" id="" required="required"/>
-                    <label for="">Username</label>
-                </div>
-                <div class="input-container-signCard">
-                    <input type="password" id="" required="required"/>
-                    <label for="">Password</label>
-                </div>
-                <div class="button-container-signCard">
-                    <button><span>Signin</span></button>
-                </div>
-                <div class="signCard-forget"><a href="#">Forgot your password?</a></div>
-            </form>
-        </div>
-        <div class="signCard alt">
-            <div class="toggle"></div>
-            <h1 class="signCard-title">Register
-                <div class="close"></div>
-            </h1>
-            <form>
-                <div class="input-container-signCard">
-                    <input type="text" id="" required="required"/>
-                    <label for="">E-mail</label>
-                </div>
-                <div class="input-container-signCard">
-                    <input type="password" id="" required="required"/>
-                    <label for="">Password</label>
-                </div>
-                <div class="input-container-signCard">
-                    <input type="password" id="" required="required"/>
-                    <label for="">Repeat Password</label>
-                </div>
-                <div class="button-container-signCard">
-                    <button><span>Register</span></button>
-                </div>
-            </form>
-        </div>
-    </div>
 
-    <!-- button Group  -->
-    <!-- Three buttons in a group -->
-    <div class="btn-group" style="width:100%">
-        <button style="width:50%" class="">love</button>
-        <button style="width:50%" class="">Share</button>
-    </div>
 
 <!--Import jQuery before materialize.js-->
     <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
@@ -986,14 +970,14 @@
 
     <script>
         /* When the user clicks on the button,
-toggle between hiding and showing the dropdown content */
+ toggle between hiding and showing the dropdown content */
         function myFunction() {
-            document.getElementById("share-dropdown").classList.toggle("show");
+            document.getElementById("myDropdown").classList.toggle("show");
         }
 
         // Close the dropdown menu if the user clicks outside of it
         window.onclick = function(event) {
-            if (!event.target.matches('.dropshare-btn')) {
+            if (!event.target.matches('.dropsharebtn')) {
 
                 var dropdowns = document.getElementsByClassName("dropshare-content");
                 var i;
@@ -1005,7 +989,6 @@ toggle between hiding and showing the dropdown content */
                 }
             }
         }
-
     </script>
 
 
