@@ -13,35 +13,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="test.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/test.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="877" column="22" lean-forward="true" selection-start-line="877" selection-start-column="22" selection-end-line="877" selection-end-column="22" />
-              <folding>
-                <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <marker date="1510771890478" expanded="false" signature="26604:26619" ph="..." />
-                <marker date="1510771890478" expanded="false" signature="26693:26702" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="customjq.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/customjq.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="441">
-              <caret line="112" column="3" lean-forward="false" selection-start-line="112" selection-start-column="3" selection-end-line="112" selection-end-column="3" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -94,10 +66,11 @@
         <option value="$PROJECT_DIR$/js/customjq.js" />
         <option value="$PROJECT_DIR$/login_register.php" />
         <option value="$PROJECT_DIR$/index.php" />
-        <option value="$PROJECT_DIR$/css/custom.css" />
-        <option value="$PROJECT_DIR$/gallery/cssGallery.css" />
-        <option value="$PROJECT_DIR$/gallery.php" />
         <option value="$PROJECT_DIR$/test.php" />
+        <option value="$PROJECT_DIR$/css/custom.css" />
+        <option value="$PROJECT_DIR$/js/customjs.js" />
+        <option value="$PROJECT_DIR$/gallery.php" />
+        <option value="$PROJECT_DIR$/gallery/cssGallery.css" />
       </list>
     </option>
   </component>
@@ -131,6 +104,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -157,8 +132,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -240,18 +213,18 @@
       <workItem from="1510592762885" duration="265000" />
       <workItem from="1510672563219" duration="4601000" />
       <workItem from="1510681537470" duration="4614000" />
-      <workItem from="1510767260542" duration="5183000" />
+      <workItem from="1510767260542" duration="5781000" />
+      <workItem from="1510857101222" duration="1088000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="237604000" />
+    <option name="totallyTimeSpent" value="239290000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="27" width="1366" height="720" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24670571" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24670571" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -281,7 +254,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/details.php" />
     <entry file="file://$PROJECT_DIR$/modal/index.html" />
     <entry file="file://$PROJECT_DIR$/modal/css/component.css" />
     <entry file="file://$PROJECT_DIR$/js/custom.js" />
@@ -459,32 +431,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/custom.css">
+    <entry file="file://$PROJECT_DIR$/js/customjs.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="366">
-          <caret line="896" column="15" lean-forward="true" selection-start-line="886" selection-start-column="4" selection-end-line="896" selection-end-column="15" />
+        <state relative-caret-position="261">
+          <caret line="102" column="0" lean-forward="true" selection-start-line="102" selection-start-column="0" selection-end-line="102" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/gallery/cssGallery.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-37">
-          <caret line="225" column="23" lean-forward="true" selection-start-line="225" selection-start-column="23" selection-end-line="225" selection-end-column="23" />
+        <state relative-caret-position="513">
+          <caret line="307" column="22" lean-forward="false" selection-start-line="307" selection-start-column="22" selection-end-line="307" selection-end-column="22" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gallery.php">
+    <entry file="file://$PROJECT_DIR$/css/custom.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1858">
-          <caret line="486" column="0" lean-forward="true" selection-start-line="486" selection-start-column="0" selection-end-line="486" selection-end-column="0" />
-          <folding>
-            <marker date="1510770234564" expanded="false" signature="17654:17664" ph="..." />
-            <marker date="1510770234564" expanded="false" signature="17710:17720" ph="..." />
-            <marker date="1510770234564" expanded="false" signature="17777:17792" ph="..." />
-            <marker date="1510770234564" expanded="false" signature="19098:19116" ph="..." />
-          </folding>
+        <state relative-caret-position="441">
+          <caret line="1357" column="0" lean-forward="true" selection-start-line="1357" selection-start-column="0" selection-end-line="1357" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -496,17 +463,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/gallery.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding>
+            <marker date="1510858179647" expanded="false" signature="15949:15959" ph="..." />
+            <marker date="1510858179647" expanded="false" signature="16005:16015" ph="..." />
+            <marker date="1510858179647" expanded="false" signature="16072:16087" ph="..." />
+            <marker date="1510858179647" expanded="false" signature="17393:17411" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/test.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="877" column="22" lean-forward="true" selection-start-line="877" selection-start-column="22" selection-end-line="877" selection-end-column="22" />
+        <state relative-caret-position="342">
+          <caret line="932" column="2" lean-forward="false" selection-start-line="932" selection-start-column="2" selection-end-line="951" selection-end-column="9" />
           <folding>
-            <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <marker date="1510771890478" expanded="false" signature="26604:26619" ph="..." />
-            <marker date="1510771890478" expanded="false" signature="26693:26702" ph="..." />
+            <marker date="1510857828295" expanded="false" signature="26604:26619" ph="..." />
+            <marker date="1510857828295" expanded="false" signature="26693:26702" ph="..." />
           </folding>
         </state>
       </provider>

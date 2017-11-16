@@ -850,45 +850,6 @@
     <div class="center-align col l4" style="margin-top: 25%">
         <!-- button Group  -->
         <!-- Three buttons in a group -->
-        <div class="btn-group" style="width:100%">
-            <div style="width:50%" class="">
-                <div class="feed">
-                    <button class="love-btn" style="width:50%">
-                        <i class="material-icons">favorite</i>
-
-                        <div class="reaction-box">
-
-                            <div class="reaction-icon love">
-                                <label>Love</label>
-                            </div>
-                            <div class="reaction-icon haha">
-                                <label>Haha</label>
-                            </div>
-                            <div class="reaction-icon wow">
-                                <label>Wow</label>
-                            </div>
-                            <div class="reaction-icon sad">
-                                <label>Sad</label>
-                            </div>
-                            <div class="reaction-icon angry">
-                                <label>Angry</label>
-                            </div>
-                        </div>
-                    </button>
-                </div>
-            </div>
-            <div style="width:50%" class="">
-                <div class="dropshare">
-                    <button onclick="myFunction()" class="dropshare-btn">Dropdown</button>
-                    <div id="" class="dropshare-content">
-                        <a href="#">Link 1</a>
-                        <a href="#">Link 2</a>
-                        <a href="#">Link 3</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
 
 
 

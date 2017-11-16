@@ -16,51 +16,7 @@
     <link type="text/css" rel="stylesheet" href="gallery/cssGallery.css"/>
     <!--Import Custom Css-->
     <link type="text/css" rel="stylesheet" href="css/custom.css"/>
-    <style>
 
-        /* Dropdown Button */
-        .dropshare-btn{
-            padding: 14px 48px;
-            font-size: 16px;
-            border: none;
-            cursor: pointer;
-        }
-
-        /* Dropdown button on hover & focus */
-        .dropshare-btn:hover, .dropbtn:focus {
-            background-color: rgba(0, 0, 0, 0.1);
-        }
-
-        /* The container <div> - needed to position the dropdown content */
-        .dropsharedown {
-            position: relative;
-            display: inline-block;
-        }
-
-        /* Dropdown Content (Hidden by Default) */
-        .dropsharedown-content {
-            display: none;
-            position: absolute;
-            background-color: #f9f9f9;
-            min-width: 160px;
-            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-            z-index: 1;
-        }
-
-        /* Links inside the dropdown */
-        .dropsharedown-content a {
-            color: black;
-            padding: 12px 16px;
-            text-decoration: none;
-            display: block;
-        }
-
-        /* Change color of dropdown links on hover */
-        .dropsharedown-content a:hover {background-color: #f1f1f1}
-
-        /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
-        .show {display:block;}
-    </style>
 </head>
 
 
@@ -351,50 +307,51 @@
                 </div>
 
                 <div class="card-action" style="padding: 0">
-                    <div class="action-nav">
-                        <div class="feed">
-                            <a class="love-btn">
-                                <i class="material-icons" style="line-height: 2;">favorite</i>
 
-                                <div class="reaction-box">
-                                    <!--  <div class="reaction-icon like">
-                                          <label>Like</label>
-                                      </div>  -->
-                                    <div class="reaction-icon love">
-                                        <label>Love</label>
-                                    </div>
-                                    <div class="reaction-icon haha">
-                                        <label>Haha</label>
-                                    </div>
-                                    <div class="reaction-icon wow">
-                                        <label>Wow</label>
-                                    </div>
-                                    <div class="reaction-icon sad">
-                                        <label>Sad</label>
-                                    </div>
-                                    <div class="reaction-icon angry">
-                                        <label>Angry</label>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="dropsharedown">
-                            <button onclick="myFunction()" class="dropshare-btn share-action-btn"><i class="fa fa-share" aria-hidden="true"></i> Share</button>
-                            <div id="myDropdown" class="dropsharedown-content">
-                                <a href="#">Link 1</a>
-                                <a href="#">Link 2</a>
-                                <a href="#">Link 3</a>
+                </div>
+                <div class="feed">
+                    <a class="love-btn">
+                        <i class="material-icons" style="line-height: 2;">favorite</i>
+
+                        <div class="reaction-box">
+                            <!--  <div class="reaction-icon like">
+                                  <label>Like</label>
+                              </div>  -->
+                            <div class="reaction-icon love">
+                                <label>Love</label>
+                            </div>
+                            <div class="reaction-icon haha">
+                                <label>Haha</label>
+                            </div>
+                            <div class="reaction-icon wow">
+                                <label>Wow</label>
+                            </div>
+                            <div class="reaction-icon sad">
+                                <label>Sad</label>
+                            </div>
+                            <div class="reaction-icon angry">
+                                <label>Angry</label>
                             </div>
                         </div>
-                    </div>
+                    </a>
                 </div>
-                <div class="card-action" style="padding: 0">
-                    <div class="action-nav">
-                        <a class="facebook-action-btn" href=""> <i class="fa fa-facebook" aria-hidden="true"></i> Facebook</a>
-                        <a class="instagram-action-btn" href=""> <i class="fa fa-instagram" aria-hidden="true"></i> Instagram</a>
-                    </div>
+
+            <div class="dropsharedown">
+                <button onclick="myFunction()" class="dropshare-btn share-action-btn"><i class="fa fa-share" aria-hidden="true"></i> Share</button>
+                <div id="myDropdown" class="dropsharedown-content">
+                    <a href="#">Share On Facebook</a>
+                    <a href="#">Share On Twitter</a>
+                    <a href="#">Share On Google +</a>
                 </div>
             </div>
+            <div class="card-action" style="padding: 0">
+                <div class="action-nav">
+                    <a class="facebook-action-btn" href=""> <i class="fa fa-facebook" aria-hidden="true"></i> Facebook</a>
+                    <a class="instagram-action-btn" href=""> <i class="fa fa-instagram" aria-hidden="true"></i> Instagram</a>
+                </div>
+            </div>
+            </div>
+
             <!--
             <div class="row" style="padding: 0">
                 <div class="col l6" style="padding:0;">
@@ -484,7 +441,6 @@
     <script type="text/javascript" src="js/customjq.js"></script>
     <script type="text/javascript" src="js/customjs.js"></script>
     <script type="text/javascript" src="gallery/jsGallery.js"></script>
-
 
 </body>
 </html>
