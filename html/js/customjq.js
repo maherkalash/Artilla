@@ -62,10 +62,12 @@ $(document).ready(function(){
     $(".card-panel").click(function(){
         $("#cardOverlay").fadeToggle();
         $(this).toggleClass("onOverlay");
+        $(this).toggleClass("pulse");
         $(this).find(".popoverCard").toggleClass("popoverCardOff");
         //$(".popoverCard").toggleClass("popoverCardOff");
     });
 });
+
 
 //show replies function
 $(document).ready(function(){

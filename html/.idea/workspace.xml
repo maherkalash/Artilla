@@ -13,7 +13,28 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf>
+      <file leaf-file-name="customjq.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/js/customjq.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="64" column="34" lean-forward="false" selection-start-line="64" selection-start-column="34" selection-end-line="64" selection-end-column="34" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1205">
+              <caret line="207" column="51" lean-forward="false" selection-start-line="207" selection-start-column="51" selection-end-line="207" selection-end-column="51" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -63,14 +84,14 @@
         <option value="$PROJECT_DIR$/product_details.php" />
         <option value="$PROJECT_DIR$/confirm.php" />
         <option value="$PROJECT_DIR$/hwandcert.php" />
-        <option value="$PROJECT_DIR$/js/customjq.js" />
         <option value="$PROJECT_DIR$/login_register.php" />
-        <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/test.php" />
         <option value="$PROJECT_DIR$/css/custom.css" />
         <option value="$PROJECT_DIR$/js/customjs.js" />
         <option value="$PROJECT_DIR$/gallery.php" />
         <option value="$PROJECT_DIR$/gallery/cssGallery.css" />
+        <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/js/customjq.js" />
       </list>
     </option>
   </component>
@@ -104,8 +125,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -132,6 +151,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -214,17 +235,19 @@
       <workItem from="1510672563219" duration="4601000" />
       <workItem from="1510681537470" duration="4614000" />
       <workItem from="1510767260542" duration="5781000" />
-      <workItem from="1510857101222" duration="1088000" />
+      <workItem from="1510857101222" duration="1395000" />
+      <workItem from="1510943739487" duration="1443000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="239290000" />
+    <option name="totallyTimeSpent" value="241040000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="27" width="1366" height="720" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24670571" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24670571" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -423,14 +446,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="96" column="10" lean-forward="false" selection-start-line="96" selection-start-column="10" selection-end-line="96" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/customjs.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="261">
@@ -443,7 +458,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="513">
           <caret line="307" column="22" lean-forward="false" selection-start-line="307" selection-start-column="22" selection-end-line="307" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -451,14 +465,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="441">
           <caret line="1357" column="0" lean-forward="true" selection-start-line="1357" selection-start-column="0" selection-end-line="1357" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/customjq.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="441">
-          <caret line="112" column="3" lean-forward="false" selection-start-line="112" selection-start-column="3" selection-end-line="112" selection-end-column="3" />
           <folding />
         </state>
       </provider>
@@ -478,12 +484,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="932" column="2" lean-forward="false" selection-start-line="932" selection-start-column="2" selection-end-line="951" selection-end-column="9" />
+        <state relative-caret-position="-95">
+          <caret line="928" column="0" lean-forward="true" selection-start-line="928" selection-start-column="0" selection-end-line="928" selection-end-column="0" />
           <folding>
             <marker date="1510857828295" expanded="false" signature="26604:26619" ph="..." />
             <marker date="1510857828295" expanded="false" signature="26693:26702" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1205">
+          <caret line="207" column="51" lean-forward="false" selection-start-line="207" selection-start-column="51" selection-end-line="207" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/customjq.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="64" column="34" lean-forward="false" selection-start-line="64" selection-start-column="34" selection-end-line="64" selection-end-column="34" />
+          <folding />
         </state>
       </provider>
     </entry>
